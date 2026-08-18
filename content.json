@@ -1,0 +1,1606 @@
+{
+  "version": "2026-08-18 12:40",
+  "updatedAt": "2026-08-18T12:40:40.231Z",
+  "raid": {
+    "name": "The Venomous Abyss",
+    "tagline": "8 Boși • Adâncurile Veninoase",
+    "difficulties": [
+      {
+        "id": "normal",
+        "name": "Normal",
+        "color": "#3fbf6f",
+        "track": "Champion Track",
+        "trackColor": "#0070dd",
+        "ilvl": "292 – 302 item level",
+        "lines": [
+          "Drop-urile garantate și bonus roll-urile dau loot <b class=\"q-rare\">Champion</b>.",
+          "<b>Vault of Treasures:</b> 1 alegere <b class=\"q-epic\">Hero-track</b> din 6."
+        ],
+        "unlocked": true
+      },
+      {
+        "id": "heroic",
+        "name": "Heroic",
+        "color": "#3b7bd4",
+        "track": "Hero Track",
+        "trackColor": "#a335ee",
+        "ilvl": "305 – 315 item level",
+        "lines": [
+          "Scalează cu selecțiile din Vault; un clear de Heroic garantează săptămânal o alegere <b class=\"q-epic\">Hero-track</b>.",
+          "<b>Vault of Treasures:</b> 1 alegere <b class=\"q-leg\">Myth-track</b> din 6.",
+          "<b>Bonus Rolls:</b> dau loot <b class=\"q-leg\">Myth-track</b> (item level 328) — valoare mare!"
+        ],
+        "unlocked": false
+      },
+      {
+        "id": "mythic",
+        "name": "Mythic",
+        "color": "#ff8000",
+        "track": "Myth Track",
+        "trackColor": "#ff8000",
+        "ilvl": "318 – 344 item level",
+        "lines": [
+          "Ultimii doi boși (<b>The Coiled Altar</b> și <b>Ula’tek</b>) dau gear de <b class=\"q-leg\">344</b> — cel mai mare din tier.",
+          "<b>Vault of Treasures:</b> toate cele 6 alegeri <b class=\"q-leg\">Myth-track</b>."
+        ],
+        "unlocked": false
+      }
+    ],
+    "bosses": [
+      {
+        "id": "nekzali",
+        "name": "Nek’zali the Soulcoiler",
+        "theme": "Spirit summoning, venom rituals",
+        "order": 1,
+        "quick": [
+          "2 faze + Intermission",
+          "Single target + add cleave",
+          "Bloodlust: Phase 2"
+        ],
+        "sections": [
+          {
+            "title": "Tot fight-ul",
+            "kind": "info",
+            "items": [
+              "<b class=\"m\">Soulcoil Rite</b> = damage mare pe tot raidul de fiecare dată când boss-ul dă cast la <b class=\"m\">Soulcoil Ignite</b> sau dacă un add ajunge în <b class=\"m\">Soulwell</b>."
+            ]
+          },
+          {
+            "title": "Phase 1",
+            "kind": "phase",
+            "items": [
+              "<b class=\"m\">Restless Amani</b>: spawnează add-uri care trebuie grip-uite, stunate și omorâte înainte să ajungă la <b class=\"m\">Soulwell</b>.",
+              "Dă-le damage până le scoți shield-ul, apoi grip + kill.",
+              "<b class=\"m\">Essence Rend</b>: cine are săgeata deasupra capului fuge la perete / marginea camerei, primește dispel și lasă un pool acolo.",
+              "Tanks & Healers: fugiți de boss când dă cast la <b class=\"m\">Possession Barrage</b> ca să reduceți damage-ul pe raid.",
+              "Tanks: melee-urile boss-ului aplică stack-uri de <b class=\"m\">Hollowing Strikes</b> — healing primit redus cu 5% per stack.",
+              "Tank-ul targetat de fantome (ghosts) fuge de raid ca să minimizeze damage-ul."
+            ]
+          },
+          {
+            "title": "Intermission (la 50%)",
+            "kind": "inter",
+            "items": [
+              "Omorâți ambii <b class=\"m\">Echoes of Jawae</b>, pe rând (unul câte unul).",
+              "<b class=\"m\">Hungering Pyre</b>: jumătate de raid ia soak-ul mare roșu de grup, cealaltă jumătate stă afară — cei de afară primesc cercuri mici roșii de foc.",
+              "Healers: atenție la jucătorii cu debuff-ul <b class=\"m\">Residual Toll</b>."
+            ]
+          },
+          {
+            "title": "Phase 2",
+            "kind": "phase",
+            "items": [
+              "Exact ca Phase 1, plus o abilitate în plus.",
+              "<b class=\"m\">Invoke</b>: primești mai multe <b class=\"m\">Soulcoil Rites</b>, iar pool-urile de pe jos (swirlies lăsate pe margine) încep să se miște random — ferește-te de ele.",
+              "Omorâți boss-ul înainte să ajungă la full energy, altfel face wipe raidului."
+            ]
+          },
+          {
+            "title": "Info utile",
+            "kind": "tips",
+            "items": [
+              "Bloodlust în Phase 2 (merge și on pull dacă strategia o cere).",
+              "Grip / stun pe add-uri = prioritate — niciun add în Soulwell."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sentinels",
+        "name": "Entombed Sentinels",
+        "theme": "Corrupted constructs, high HP",
+        "order": 2,
+        "quick": [
+          "1 fază + Intermission",
+          "Mostly single target",
+          "Bloodlust: on pull"
+        ],
+        "sections": [
+          {
+            "title": "Înainte de fight",
+            "kind": "info",
+            "items": [
+              "Împarte raidul egal între cei doi boși și ține-i la peste 40 de yarzi unul de altul."
+            ]
+          },
+          {
+            "title": "Green Boss",
+            "kind": "phase",
+            "items": [
+              "<b class=\"m\">Venom Coagulation</b>: swap pe add-ul slime (spawnează cam o dată pe minut) și omorâți-l înainte să apară următorul.",
+              "<b class=\"m\">Toxic Droplets</b>: călcați pe picăturile verzi de pe jos înainte să explodeze pe raid (1–2 de persoană, cu defensive).",
+              "Tanks: <b class=\"m\">Empowering Slam</b> = hit mare + physical damage increase; debuff-ul nu se resetează — defensive pe stack-uri multe.",
+              "După tank buster sau soak, orbs trag în boss — feriți-vă de ele."
+            ]
+          },
+          {
+            "title": "Red Boss",
+            "kind": "phase",
+            "items": [
+              "<b class=\"m\">Unstable Miasma</b>: soak de grup pe partea roșie — duceți-l la marginea platformei.",
+              "<b class=\"m\">Blighted Blood</b>: DoT-uri care se dau dispel pe mai mulți jucători; dispel lângă pool-uri existente = mai lasă unul, atenție unde stați.",
+              "Tanks: <b class=\"m\">Bloodvenom Injection</b> = hit mare + magic damage increase."
+            ]
+          },
+          {
+            "title": "Intermission",
+            "kind": "inter",
+            "items": [
+              "Boșii se unesc, primesc 99% damage reduction, iar cel cu viață mai puțină se vindecă.",
+              "Fiecare jucător primește 1, 2 sau 3 orbs verzi deasupra capului — atinge-te de cineva astfel încât totalul să fie exact 4: <b>1 + 3</b> sau <b>2 + 2</b>.",
+              "<b>BOSS-UL NU IA DAMAGE — FĂ MECANICA!</b>",
+              "După intermission, tancurile fac swap de boși/părți."
+            ]
+          },
+          {
+            "title": "Info utile",
+            "kind": "tips",
+            "items": [
+              "Bloodlust on pull.",
+              "HP mare pe boși — păstrează cooldown-urile pentru fereastra de după intermission."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "explorers",
+        "name": "The Lost Explorers",
+        "theme": "Spirit possession, crowd control",
+        "order": 3,
+        "quick": [
+          "1 fază",
+          "2-target cleave",
+          "Bloodlust: on pull"
+        ],
+        "sections": [
+          {
+            "title": "Tot fight-ul",
+            "kind": "info",
+            "items": [
+              "2 boși se tanchează (<b>Iku</b> și <b>Nama</b>), <b>Gebbo</b> aleargă prin cameră. Nu-i lăsa NICIODATĂ pe toți 3 împreună.",
+              "Deschide cutiile lui Gebbo (calcă pe toate) până găsești peștele și folosește-l pe unul din boși înainte ca <b class=\"m\">Mor’zahi</b> să ajungă la full energy.",
+              "Ordinea recomandată pentru pește: <b>Nama → Iku → Gebbo</b>."
+            ]
+          },
+          {
+            "title": "Nama",
+            "kind": "phase",
+            "items": [
+              "Melee: bait și dodge la <b class=\"m\">Shell Spin</b> — cele 3 carapace de țestoasă targetează un melee (bait spre margine).",
+              "<b class=\"m\">Mighty Thud</b>: împărțiți-vă în 3 grupuri de soak, apoi ieșiți din patch-uri."
+            ]
+          },
+          {
+            "title": "Iku",
+            "kind": "phase",
+            "items": [
+              "Interrupt la <b class=\"m\">Icebound Flames</b> — obligatoriu.",
+              "<b class=\"m\">Blink Nova</b>: cine e targetat fuge de raid ca să reducă damage-ul.",
+              "<b class=\"m\">Frostfire Volley</b>: împerechează cercul de Fire cu cel de Frost, lăsați-le unul lângă altul, apoi fugiți în patch-ul opus ca să se curețe."
+            ]
+          },
+          {
+            "title": "Gebbo",
+            "kind": "phase",
+            "items": [
+              "<b class=\"m\">Throw Junk</b>: ferește-te de cutii și împrăștiați-vă ca să le deschideți.",
+              "Bomba se lasă la margine de 1 jucător, apoi tot raidul sare peste unda de foc cu o ciupercă (mushroom)."
+            ]
+          },
+          {
+            "title": "Tanks",
+            "kind": "inter",
+            "items": [
+              "Cross-taunt pe Nama și Iku în jur de 7 stack-uri de <b class=\"m\">Shredding Shards</b>.",
+              "Ține-l pe Nama lângă țestoasa cu mai multă viață și trage-o pe cea cu viață puțină deoparte."
+            ]
+          },
+          {
+            "title": "Info utile",
+            "kind": "tips",
+            "items": [
+              "Bloodlust on pull.",
+              "Cine e targetat de blink fuge de raid; interrupt permanent pe Iku."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vashnik",
+        "name": "Vashnik the Malignant",
+        "theme": "Venom distillation, toxic effects",
+        "order": 4,
+        "quick": [
+          "1 fază",
+          "Multi-target",
+          "Bloodlust: on pull"
+        ],
+        "sections": [
+          {
+            "title": "Tot fight-ul",
+            "kind": "info",
+            "items": [
+              "Poziționează boss-ul <b>între 2 fântâni</b> înainte să ajungă la full energy și să dea cast la <b class=\"m\">Imbibe</b>.",
+              "<b class=\"m\">Imbibe</b> activează cele mai apropiate 2 fântâni: spawnează add-urile lor și dă jucătorilor debuff-urile unice.",
+              "Când add-urile au murit, mutați-vă la următoarea pereche de fântâni și repetați.",
+              "Fântâna care se suprapune devine <b>Empowered</b> (mai puternică) dacă e activată de două ori la rând.",
+              "Ordinea: <b>1) Shadow + Fire</b> → <b>2) Shadow + Blood</b> → <b>3) Blood + Fire</b>.",
+              "Cine are drop-urile verzi fuge de raid și NU le duce în raid."
+            ]
+          },
+          {
+            "title": "Shadow Fountain",
+            "kind": "phase",
+            "items": [
+              "Add-uri mici (se pot da CC) — AoE pe ele și dodge la swirlies/puddles pe care le trag când mor.",
+              "Jucătorii targetați primesc heal absorb și spawnează repetat swirlies la picioare — mișcă-te continuu."
+            ]
+          },
+          {
+            "title": "Fire Fountain",
+            "kind": "phase",
+            "items": [
+              "2 add-uri care dau damage pe tot raidul cât sunt vii și explodează când mor.",
+              "Cine primește cercul mare de explozie fuge de raid ca să reducă damage-ul."
+            ]
+          },
+          {
+            "title": "Blood Fountain",
+            "kind": "phase",
+            "items": [
+              "Un singur add mare care NU poate fi CC-uit și se împarte în add-uri mici când moare.",
+              "Un jucător primește un cerc roșu (leech) și nu poate fi healat până când alți jucători nu stau în cercul lui — soak ca să-l puteți vindeca."
+            ]
+          },
+          {
+            "title": "Info utile",
+            "kind": "tips",
+            "items": [
+              "Bloodlust on pull.",
+              "Tanks: swap după fiecare <b class=\"m\">Dripping Fangs</b>."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "sszorak",
+        "name": "Sszorak",
+        "theme": "Raw damage output, venom damage",
+        "order": 5,
+        "quick": [
+          "1 fază + Dig In",
+          "Full single target",
+          "Bloodlust: on pull sau în Dig In"
+        ],
+        "sections": [
+          {
+            "title": "Tot fight-ul",
+            "kind": "info",
+            "items": [
+              "Pune 3 world markers <b>opus</b> celor 3 grupuri de tornade. Tornadele apar pe margini lângă găuri (1, 2 sau 3) — aia e ordinea vânturilor din intermission.",
+              "<b class=\"m\">Venomous Surge</b>: 2 jucători duc săgețile verzi la markere și lasă blob-urile verzi (Cysts) acolo — opus vânturilor. 4 per fază: 3 pentru intermission, 1 detonat după ce se termină vânturile.",
+              "Cercurile albe de vânt: împerechează-te cu alt jucător și îndreptați liniile una spre alta ca să se ciocnească la lansare.",
+              "La <b>crosswinds</b>, du-te lângă alt jucător ca să loviți liniile împreună."
+            ]
+          },
+          {
+            "title": "Dig In (Intermission)",
+            "kind": "inter",
+            "items": [
+              "Tornadele exterioare împing raidul — lasă-te împins într-un blob, iar knockback-ul lui te trimite înapoi pe platformă.",
+              "Boss-ul ia <b>+30% damage</b> în timpul <b class=\"m\">Dig In</b> — burst aici."
+            ]
+          },
+          {
+            "title": "Tanks",
+            "kind": "phase",
+            "items": [
+              "Combo frontal de 5: <b>1× Ravage, 2× Tempest, 2× Mutilate</b>, în orice ordine.",
+              "<b class=\"m\">Ravage</b> (alb): doar pentru tanks — un tank îl ia (soak).",
+              "<b class=\"m\">Tempest</b>: spawnează tornade — dispel pe cei loviți.",
+              "<b class=\"m\">Mutilate</b> (verde): soak de grup — împarte raidul în 2.",
+              "Tanchează boss-ul lângă margine, ca vântul să sufle puddle-urile afară."
+            ]
+          },
+          {
+            "title": "Info utile",
+            "kind": "tips",
+            "items": [
+              "Bloodlust on pull sau păstrat pentru Dig In (+30% damage pe boss).",
+              "Markerele puse corect la început fac tot fight-ul simplu."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "twinfangs",
+        "name": "The Twin Fangs",
+        "theme": "Vexhul & Ithraz — tank swap, synchronized attacks",
+        "order": 6,
+        "quick": [
+          "2 boși sincronizați",
+          "Tank swap",
+          "Bloodlust: on pull"
+        ],
+        "sections": [
+          {
+            "title": "Eternal Venom",
+            "kind": "info",
+            "items": [
+              "DoT care face stack. Dacă ajungi la <b>10 stack-uri, mori</b>.",
+              "Scapi de stack-uri stând în <b>soak-ul mare</b> (lovește de 3 ori).",
+              "După soak spawnează un add mare — <b>focus pe el</b>."
+            ]
+          },
+          {
+            "title": "Mecanici",
+            "kind": "phase",
+            "items": [
+              "Melee: NU stați în cercurile maro.",
+              "Add-urile targetează jucători cu un frontal care aplică stack de venin — nu lovi mai mulți oameni cu linia ta.",
+              "Dodge la valurile de otravă (poison waves).",
+              "Cerc roșu pe tine → du-te în lateral și folosește defensivă. La finalul DoT-ului lași un puddle.",
+              "Soak pe puddle-urile verzi de pe jos — <b>1 per persoană</b> (atenție la stack-uri!)."
+            ]
+          },
+          {
+            "title": "Beam (mijloc)",
+            "kind": "inter",
+            "items": [
+              "Când unul din boși intră în mijloc, <b>Vexhul</b> trage beam-ul pe tank-ul lui și apoi îl rotește în direcția arătată de orb-urile din jurul boss-ului."
+            ]
+          },
+          {
+            "title": "Info utile",
+            "kind": "tips",
+            "items": [
+              "Bloodlust on pull.",
+              "Urmărește-ți permanent stack-urile de Eternal Venom înainte să iei soak-uri."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "altar",
+        "name": "The Coiled Altar",
+        "theme": "Summoning, escalating complexity",
+        "order": 7,
+        "quick": [
+          "3 faze",
+          "Council-style",
+          "Bloodlust: Phase 3"
+        ],
+        "sections": [
+          {
+            "title": "Phase 1 — Zul’jan",
+            "kind": "phase",
+            "items": [
+              "Jucătorii ridică orb-urile verzi și le lasă lângă tank.",
+              "Tank-ul lovește orb-urile cu frontalul de tank.",
+              "Jumătate de raid ia soak-ul <b class=\"m\">Guillotine</b>, apoi iese din AoE.",
+              "Healers: dispel pe DoT-urile de otravă.",
+              "Dodge la topoarele care se mișcă (moving axes).",
+              "Când moare, distruge toate orb-urile rămase."
+            ]
+          },
+          {
+            "title": "Phase 2 — Hexlord Malacras",
+            "kind": "phase",
+            "items": [
+              "Boss-ul dă mind control pe câțiva jucători — dă-le damage ca să-i eliberezi.",
+              "Fiecare jucător eliberat spawnează 2 fantome care te urmăresc și îți dau mind control dacă te ating.",
+              "Dacă te <b>uiți</b> la fantome, le dai stun. Adu toate fantomele la marcajele stabilite.",
+              "Tank-ul lovește fantomele cu frontalul.",
+              "Cleave + interrupt pe add-ul <b class=\"m\">Abandoned Soulcoiler</b> (interrupt spre finalul cast-ului). Ranged DPS: focus pe add.",
+              "Cercurile mov: fugi de raid și colectează cele 3 spirite care spawnează, altfel mori.",
+              "Boss-ul primește shield și pulsează damage — sparge shield-ul și interrupt."
+            ]
+          },
+          {
+            "title": "Phase 3 — Zul’jan înviat",
+            "kind": "inter",
+            "items": [
+              "<b>Zul’jan e înviat, healat și ia 100% damage în plus.</b>",
+              "<b>LUST! LUST! LUST!</b>",
+              "Nu lăsa fantomele verzi să-l lovească pe Zul’jan.",
+              "Defensive și toate healing cooldown-urile.",
+              "Doar Zul’jan are frontal aici — trebuie lovite și orb-urile, și fantomele cu el.",
+              "Mecanici active: <b class=\"m\">Guillotine</b>, <b class=\"m\">Gloom Bombs</b> (cercuri mov), <b class=\"m\">Eternal Nightfall</b> (shield pe Malacras)."
+            ]
+          },
+          {
+            "title": "Info utile",
+            "kind": "tips",
+            "items": [
+              "Bloodlust în Phase 3.",
+              "Boss de final de raid pe Mythic — dă gear 344 (Myth track)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ulatek",
+        "name": "Ula’tek",
+        "theme": "Venom mastery, ultimate power",
+        "order": 8,
+        "quick": [
+          "3 stagii",
+          "Final boss",
+          "Loot maxim al tier-ului"
+        ],
+        "sections": [
+          {
+            "title": "Stage 1 — Fury of the Serpent Mother",
+            "kind": "phase",
+            "items": [
+              "Valuri de venin (<b class=\"m\">Caustic Waves</b>) — ferește-te de linie și ține-o departe de ouăle neeclozate.",
+              "<b class=\"m\">Devourer’s Spawn</b>: omoară ouăle înainte să eclozeze în Vipers.",
+              "<b class=\"m\">Spectral Coils</b>: stack împreună ca să împărțiți damage-ul.",
+              "Tanks: <b class=\"m\">Mother’s Wrath</b> și <b class=\"m\">Rattler Slam</b> — rămâi permanent în melee range, altfel tot raidul ia hit-ul."
+            ]
+          },
+          {
+            "title": "Stage 2 — Doomscale Warden (add phase)",
+            "kind": "inter",
+            "items": [
+              "Interrupt sau omoară <b class=\"m\">Doomscale Wardens</b> înainte ca <b class=\"m\">Writhing Gestation</b> să maturizeze clutch-urile de ouă.",
+              "<b class=\"m\">Slithering Clutch</b>: sparge grupul de ouă înainte să devină prea puternic.",
+              "<b class=\"m\">Surging Fang</b>: leech pe otravă în 15 secunde sau te transformi în piatră."
+            ]
+          },
+          {
+            "title": "Stage 3 — Ascensiunea",
+            "kind": "phase",
+            "items": [
+              "Rupe platforma — <b class=\"m\">Demolish</b>: pleacă de lângă slam-ul de coadă și knockback.",
+              "<b class=\"m\">Rage of the Shackled</b>: dodge la Falling Debris, apoi <b>burn imediat</b> pe <b class=\"m\">Venomous Heart</b> când e expusă — fereastra e scurtă.",
+              "Dacă nu spargi inima la timp: <b class=\"m\">Fury Unleashed</b> — hit în două părți, începe cu peste 2,5 milioane damage. Defensive pregătite."
+            ]
+          },
+          {
+            "title": "Info utile",
+            "kind": "tips",
+            "items": [
+              "Notițele detaliate de strategie (stil guild) nu au fost adăugate încă — trimite pozele și le completez.",
+              "Pe Mythic dă mount-ul <b>Primeval Skyfriend</b> (drop garantat în Season 2)."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "spells": {
+    "nekzali": {
+      "overview": "Nek’zali hrănește Soulcoil Well-ul din mijlocul camerei cu suflete — fiecare suflet înghițit o face mai puternică, deci nimeni nu moare lângă el și niciun add nu ajunge la el. La 50% se retrage în spatele Tethers of Awakening (intermission); omorârea Echoes of Jawae le taie și o scoate înapoi. La full energy începe Uncoiling: buff permanent de +500% damage — burn race.",
+      "loot": "Loot: 292 ilvl (Normal, boss 1)",
+      "roles": {
+        "tank": [
+          "Gestionați în principal <b class=\"m\">Hollowing Strikes</b> și <b class=\"m\">Possession Barrage</b>. Swap când <b class=\"m\">Hollowing Strikes</b> cade de pe celălalt tank.",
+          "Cine primește <b class=\"m\">Possession Barrage</b> fuge imediat de boss și folosește o defensivă — mai ales pe Heroic, unde spiritele adaugă stack-uri suplimentare de <b class=\"m\">Hollowing Strikes</b>."
+        ],
+        "healer": [
+          "Cele mai mari momente de healing: <b class=\"m\">Soulcoil Rite</b>, Soulcoil Ignition și <b class=\"m\">Possession Barrage</b>. Pe Heroic, Ritual Burn face fiecare <b class=\"m\">Soulcoil Rite</b> tot mai periculos — rite-urile inutile cauzate de add-uri ajunse la Well sunt foarte punitive.",
+          "În intermission, atenție la jucătorii cu Residual Toll și la cei cu multe stack-uri de <b class=\"m\">Hollowing Strikes</b>."
+        ],
+        "dps": [
+          "Prioritatea e simplă: NU faceți tunnel pe boss cât timp <b class=\"m\">Restless Amani</b> merg spre Soulcoil Well. Spargeți <b class=\"m\">Gravebound Advance</b> cât mai repede, apoi grupați add-urile și dați cleave.",
+          "În intermission, focus pe câte un Echo of Jawae pe rând. În Phase 2, continuați swap-ul pe add-uri și împingeți-o pe Nek’zali suficient cât s-o omorâți înainte de <b class=\"m\">Uncoiled Rage</b>."
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Soulcoil Rite",
+          "todo": "Oprește spiritele să ajungă la Well — fiecare spirit alimentează ritualul.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "Soulcoil Well-ul se agită, dându-i lui Nek’zali 5 energie. Provoacă 66.673 damage Shadow tuturor jucătorilor și încă 20.835 damage Shadow la fiecare 2 sec, timp de 44 sec. Efectul face stack."
+        },
+        {
+          "name": "Soulcoil Well",
+          "todo": "Stai departe de puddle — „mănâncă” tot ce îl atinge.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Un puț de energie necrotică folosit pentru a învia cultul Soulcoiler-ilor. Orice Restless Amani care ajunge la puț declanșează un Soulcoil Rite. Statul în puț provoacă 125.011 damage Shadow pe secundă. Jucătorii care mor în puț devin Soulcoiled."
+        },
+        {
+          "name": "Soulcoiled",
+          "todo": "Dispel sau oprește fizic jucătorul marcat înainte să ajungă la Well.",
+          "focus": "Cel marcat",
+          "wipe": "high",
+          "tip": "Nek’zali revendică sufletul unui jucător, obligându-l să meargă spre Soulcoil Well. Ținta e sacrificată când ajunge la apele lui, declanșând Soulcoil Rite."
+        },
+        {
+          "name": "Essence Rend",
+          "todo": "Pleacă din raid când ești eliberat; omoară Latent Cultist-ul lăsat în urmă.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Nek’zali prinde mai mulți jucători, trăgându-i spre ea 5 sec, apoi îi aruncă și provoacă 166.681 damage Shadow. Rămâne o esență fantomatică ce provoacă 66.673 damage Shadow pe secundă, 15 sec. La îndepărtare, un Latent Cultist apare la locația jucătorului."
+        },
+        {
+          "name": "Latent Cultist",
+          "todo": "Omoară-l rapid, nu sta în aria lui.",
+          "focus": "DPS",
+          "wipe": "low",
+          "tip": "Spiritul unui cultist se materializează, provocând 541.714 damage Shadow jucătorilor aflați pe 6 yarzi. Energia necrotică se lipește de spirit, provocând 275.024 damage Shadow pe secundă și încetinind cu 40% jucătorii care stau în ea."
+        },
+        {
+          "name": "Restless Amani",
+          "todo": "Omoară add-urile înviate înainte să ajungă la Well.",
+          "focus": "DPS",
+          "wipe": "high",
+          "tip": "Spirite străvechi se întorc în corpurile lor și pornesc spre Soulcoil Well."
+        },
+        {
+          "name": "Gravebound Advance",
+          "todo": "Sparge shield-ul de magic absorb cu damage magic mai întâi.",
+          "focus": "DPS",
+          "wipe": "low",
+          "tip": "Restless Amani sunt protejați de o barieră necrotică ce absoarbe damage magic egal cu 25% din viața lor maximă. Cât ține bariera, nu pot fi distruși și fixează Soulcoil Well-ul."
+        },
+        {
+          "name": "Corpse Blight",
+          "todo": "Împrăștiați-vă înainte să moară add-ul.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Restless Amani erup în necroză, provocând 20.835 damage Plague tuturor jucătorilor și încă 1.667 damage Plague pe secundă, 15 sec. Efectul face stack."
+        },
+        {
+          "name": "Possession Barrage",
+          "todo": "Tank-ul întoarce boss-ul cu spatele la raid ca să scurteze distanța proiectilelor.",
+          "focus": "Tank",
+          "wipe": "high",
+          "tip": "(cast 6 sec) Nek’zali lansează ecouri spectrale în direcția țintei principale, care explodează la impact: 291.692 damage Shadow tuturor jucătorilor. Damage-ul scade cu cât ecoul călătorește mai departe."
+        },
+        {
+          "name": "Hollowing Strikes",
+          "todo": "Urmărește reducerea de healing care face stack pe cei afectați.",
+          "focus": "Healer",
+          "wipe": "medium",
+          "tip": "Atacurile melee ale lui Nek’zali smulg o parte din sufletul țintei: 16.668 damage Shadow la fiecare 3 sec, iar healing-ul și absorbțiile primite scad cu 5%, timp de 15 sec. Efectul face stack."
+        },
+        {
+          "name": "Tether of Awakening",
+          "todo": "Omoară Echoes of Jawae ca să tai tether-ele și să închei intermission-ul.",
+          "focus": "DPS",
+          "wipe": "medium",
+          "tip": "(channel) Legată de Soulcoil Well, Nek’zali primește imunitate la orice damage."
+        },
+        {
+          "name": "Hungering Pyre",
+          "todo": "Pleacă din foc și ferește-te de Slithering Flames pe care le trimite.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "(cast 7,5 sec) Echo of Jawae erupe în foc de suflete: 1.666.813 damage Fire împărțit egal între jucătorii aflați pe 10 yarzi. Slithering Flames îi caută pe cei care NU sunt loviți de pyre."
+        },
+        {
+          "name": "Uncoiled Rage",
+          "todo": "Ține cooldown-urile de burn pregătite înainte să ajungă la full energy.",
+          "focus": "Toți",
+          "wipe": "extreme",
+          "tip": "(cast 5 sec) La full energy, Nek’zali își atinge întregul potențial: attack speed și viteză de mișcare +150%, tot damage-ul +500% și imunitate la Taunt."
+        }
+      ]
+    },
+    "sentinels": {
+      "overview": "Sub 40 de yarzi unul de altul, golemii împart Ula’tek’s Dominance: −99% damage primit. La 100 energy se unesc pentru Vitriolic Stasis — golemul mai slab se healează și tot raidul primește Helical Toxins: ciocnește-te cu alt jucător infectat ca să uniți stack-urile; exact 4 stack-uri = se curăță, altfel detonează.",
+      "loot": "Loot: 295 ilvl (Normal) • Tier token: Mâini (Hands)",
+      "roles": {
+        "tank": [
+          "Swap de boși după FIECARE intermission. Breath of Ula’tek împuternicește <b class=\"m\">Empowering Slam</b> de fiecare dată când lovește același tank — swap-ul după <b class=\"m\">Vitriolic Stasis</b> lasă următorul Slam pe celălalt tank și resetează creșterea.",
+          "<b class=\"m\">Bloodvenom Injection</b> lasă un DoT lung: dacă treci de pe Blood pe Breath după intermission, DoT-ul poate încă ticăi când începi să iei damage pe partea verde — defensivă la nevoie.",
+          "Și evident: trageți boșii imediat înapoi pe părți opuse după intermission. Nu-i lăsați împreună cu <b class=\"m\">Ula’tek’s Dominance</b> activ, în timp ce toată lumea se întreabă unde a dispărut damage-ul."
+        ],
+        "healer": [
+          "Partea verde ia presiune constantă cât timp <b class=\"m\">Venom Coagulation</b> trăiește, din cauza <b class=\"m\">Contaminate</b> — cu cât DPS-ul omoară slime-ul mai repede, cu atât mai bine.",
+          "Partea roșie cere atenție directă: <b class=\"m\">Blighted Blood</b> intră pe mai mulți jucători deodată și lovește tare 18 sec. Pe Heroic, dispel înainte să expire ca să nu lase bălți de Blood Venom în plus.",
+          "Mare grijă la tank-ul care iese de pe Blood după intermission — <b class=\"m\">Bloodvenom Injection</b> poate încă ticăi în timp ce începe să ia <b class=\"m\">Empowering Slam</b> de la celălalt boss."
+        ],
+        "dps": [
+          "Împărțiți DPS-ul cât mai egal între Sentineli: <b class=\"m\">Vitriolic Stasis</b> healează boss-ul cu viață mai mică până la nivelul celuilalt, deci damage-ul în avans e irosit.",
+          "Pe partea verde, <b class=\"m\">Venom Coagulation</b> e ținta prioritară: swap imediat, omorâți slime-ul, apoi înapoi pe boss.",
+          "Toată lumea ajută la <b class=\"m\">Toxic Droplets</b> — e suficient să calci pe ele. Una transformată în <b class=\"m\">Noxious Blast</b> e un mod foarte evitabil de a enerva tot raidul."
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Ula’tek’s Dominance",
+          "todo": "Ține golemii la peste 40 de yarzi unul de altul.",
+          "focus": "Tancuri",
+          "wipe": "extreme",
+          "tip": "Cât timp Entombed Sentinels sunt la sub 40 de yarzi unul de altul, se împuternicesc reciproc, reducându-și damage-ul primit cu 99%."
+        },
+        {
+          "name": "Mark of Acid",
+          "todo": "Ieși periodic din rază ca să nu facă stack la infinit.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Breath of Ula’tek își aplică marca pe jucătorii aflați pe 40 de yarzi, la fiecare 5 sec: 8.334 damage Nature la fiecare 2 sec, timp de 40 sec. Efectul face stack."
+        },
+        {
+          "name": "Mark of Blood",
+          "todo": "La fel ca Mark of Acid — nu lăsa ambele să facă stack împreună.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Blood of Ula’tek își aplică marca pe jucătorii aflați pe 40 de yarzi, la fiecare 5 sec: 8.334 damage Shadow la fiecare 2 sec, timp de 40 sec. Efectul face stack."
+        },
+        {
+          "name": "Venom Coagulation",
+          "todo": "Omoară slime-ul înainte ca Contaminate să scape de sub control.",
+          "focus": "DPS",
+          "wipe": "high",
+          "tip": "(cast 1,5 sec) Breath of Ula’tek varsă o masă lipicioasă de venin care prinde viață — un slime viu."
+        },
+        {
+          "name": "Contaminate",
+          "todo": "Focus rapid pe slime — scalează cu timpul cât e viu.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "(channel) Venom Coagulation radiază continuu o esență contaminantă: 116.677 damage Nature tuturor jucătorilor la fiecare 3 sec."
+        },
+        {
+          "name": "Toxic Droplets",
+          "todo": "Calcă pe picături devreme ca să le spargi în siguranță.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "(cast 2 sec) Breath of Ula’tek împrăștie picături toxice care erup în Noxious Blast după 12 sec. Jucătorii le pot distruge călcând pe ele, suferind 375.033 damage Nature."
+        },
+        {
+          "name": "Noxious Blast",
+          "todo": "Nu lăsa picături nesparte — erup singure pe tot raidul.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "Picătura toxică explodează violent: 375.033 damage Nature tuturor jucătorilor."
+        },
+        {
+          "name": "Empowering Slam",
+          "todo": "Tank swap înainte ca buff-ul de damage să scape de sub control.",
+          "focus": "Tank",
+          "wipe": "high",
+          "tip": "(cast 1,5 sec) Breath of Ula’tek își izbește ținta curentă: 1.666.813 damage Physical. De fiecare dată când golemul lovește aceeași țintă, se împuternicește: +10% damage Physical până lovește altă țintă."
+        },
+        {
+          "name": "Blighted Blood",
+          "todo": "Dispel pe jucătorul infectat.",
+          "focus": "Healer",
+          "wipe": "medium",
+          "tip": "Blood of Ula’tek infectează jucători cu venin de sânge: 208.352 damage Shadow la fiecare 2 sec, timp de 18 sec."
+        },
+        {
+          "name": "Unstable Miasma",
+          "todo": "Împrăștie-te de ceilalți odată ce ești marcat.",
+          "focus": "Cel marcat",
+          "wipe": "high",
+          "tip": "(cast 1 sec, cooldown 6 sec) Blood of Ula’tek marchează un jucător cu miasmă instabilă. După 8 sec, miasma erupe: 5.000.440 damage Shadow împărțit egal între jucătorii aflați pe 7,5 yarzi. Impactul răspândește Clinging Murk printre cei loviți."
+        },
+        {
+          "name": "Clinging Murk",
+          "todo": "Nu sta lipit de alți jucători infectați.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Veninul de sânge lipicios provoacă 100.009 damage Shadow la fiecare 2 sec, timp de 6 sec. Efectul face stack."
+        },
+        {
+          "name": "Bloodvenom Injection",
+          "todo": "Tank swap pe măsură ce se acumulează damage-ul.",
+          "focus": "Tank",
+          "wipe": "high",
+          "tip": "(cast 1,5 sec) Blood of Ula’tek își injectează ținta cu venin de sânge: 1.666.813 damage Physical imediat + 41.670 damage Shadow pe secundă, timp de 40 sec. Efectul face stack."
+        },
+        {
+          "name": "Vitriolic Stasis",
+          "todo": "Fază de merge + heal — continuă DPS-ul.",
+          "focus": "Toți",
+          "wipe": "low",
+          "tip": "(channel 30 sec) La 100 energy, ambii Sentineli aleargă unul spre altul și își echilibrează fluidele timp de 30 sec: damage primit −99%, iar Sentinelul mai slab se vindecă până îl egalează pe celălalt."
+        },
+        {
+          "name": "Helical Toxins",
+          "todo": "Ciocnește-te cu alt infectat la exact 4 stack-uri ca să-l neutralizezi.",
+          "focus": "Toți",
+          "wipe": "extreme",
+          "tip": "Sentinelii își combină fluidele și infectează toți jucătorii cu un venin împletit: 16.668 damage Plague la fiecare 2 sec, timp de 28 sec. Ciocnirea cu alt jucător combină puterea veninului. Exact 4 aplicări neutralizează veninul, eliminându-l fără efect."
+        },
+        {
+          "name": "Cultivated Burst",
+          "todo": "Nu lăsa NICIODATĂ Helical Toxins să expire singur.",
+          "focus": "Toți",
+          "wipe": "extreme",
+          "tip": "La expirare, Helical Toxins erupe într-o explozie violentă: 625.055 damage Plague purtătorului + 208.245 damage Plague pe secundă, timp de 1 min."
+        }
+      ]
+    },
+    "explorers": {
+      "overview": "Trei tortollani posedați de păpușarul Mor’zahi — totul e despre a-i bloca ascensiunea. Hrănește un Disgusting Fish (din lăzile explozive ale lui Trader Gebbo) unui tortollan controlat înainte ca Mor’zahi să termine de încărcat. Prea încet = cast-ul final umple camera de shadow damage și nu mai iese nimeni.",
+      "loot": "Loot: 295 ilvl (Normal) • Tier token: Umeri (Shoulders)",
+      "roles": {
+        "tank": [
+          "Începeți cu un tank pe First Mate Nama și unul pe Scrollsage Iku. Nama stack-uiește <b class=\"m\">Steady Strikes</b> (damage Physical crescut pe tank-ul curent), Iku folosește periodic <b class=\"m\">Shredding Shards</b> (hit-uri repetate + damage Magic primit crescut).",
+          "După fiecare <b class=\"m\">Shredding Shards</b>, apropiați-i pe Nama și Iku pentru taunt-swap, apoi despărțiți-i la loc de Gebbo. Așa se resetează debuff-urile de tank.",
+          "Țineți toate cele 3 țestoase la viață apropiată: Nama stă lângă țestoasa cu mai multă viață pentru cleave, iar cea cu viață mică mai departe. Dacă moare una, devine urât rapid: <b class=\"m\">Relentless Escalation</b>, <b class=\"m\">Cataclysmic Invocation</b>, <b class=\"m\">Smashing Shovel</b>."
+        ],
+        "healer": [
+          "Mult damage pe raid, dar predictibil. Asigurați interrupt pe <b class=\"m\">Icebound Flames</b> — dacă scapă unul, efectul rămas se poate da dispel, dar e mult mai simplu să opriți cast-ul.",
+          "Fiți gata pentru <b class=\"m\">Blink Nova</b>, mai ales dacă ținta nu apucă să fugă departe.",
+          "<b class=\"m\">Throw Junk</b> e alt punct de damage repetat: cei care sparg lăzi iau Splinters, iar Relic Rupture lovește raidul — toată lumea la viață bună înainte să se deschidă mai multe lăzi. Spre final, <b class=\"m\">Mighty Thud</b> și <b class=\"m\">Frostfire Volley</b> adaugă și mai mult damage cu fiecare pește folosit."
+        ],
+        "dps": [
+          "Joc de echilibrare a vieții: cleave pe Nama + Iku când poziționarea permite, iar ranged țin damage pe Gebbo cât patrulează. Verificați constant toate cele 3 bare de viață în loc să faceți tunnel.",
+          "Nu vreți ca o țestoasă să moară mult înaintea celorlalte — supraviețuitorii primesc abilități periculoase. Aduceți-le jos împreună și terminați-le cât mai aproape una de alta.",
+          "Când Gebbo aruncă <b class=\"m\">Throw Junk</b>, lăsați meter-ele 5 secunde și deschideți lăzile — aveți nevoie de pești înainte ca Mor’zahi să ajungă la <b class=\"m\">Final Ascension</b>.",
+          "Melee: ajutați la bait pe <b class=\"m\">Shell Spin</b> spre exteriorul platformei, departe de ranged — un stun de 4 sec în timpul <b class=\"m\">Mighty Thud</b> sau <b class=\"m\">Frostfire Volley</b> doare."
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Dark Whispers",
+          "todo": "Rupe controlul de pe jucătorul posedat înainte să se fixeze.",
+          "focus": "Cel marcat",
+          "wipe": "medium",
+          "tip": "(cast 7 sec) Șoaptele întunecate ale lui Mor’zahi obligă ținta să-i urmeze comenzile."
+        },
+        {
+          "name": "Mor’zahi’s Command",
+          "todo": "Mor’zahi preia controlul unui tortollan — pregătiți-vă pentru abilitatea lui împuternicită.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "(channel 1 min) Mor’zahi preia violent controlul țintei sale, dându-i abilități suplimentare."
+        },
+        {
+          "name": "Binding Anguish",
+          "todo": "Hrănește un Disgusting Fish înainte să se termine cast-ul.",
+          "focus": "Cel marcat",
+          "wipe": "high"
+        },
+        {
+          "name": "Final Ascension",
+          "todo": "Nu lăsa NICIODATĂ energia lui Mor’zahi să ajungă la full.",
+          "focus": "Toți",
+          "wipe": "extreme",
+          "tip": "(cast 5 sec, la 100% energy) Mor’zahi adună putere încet pentru ascensiunea lui finală. La channel, provoacă 416.703 damage Shadow la fiecare 0,5 sec tuturor jucătorilor."
+        },
+        {
+          "name": "Disgusting Fish",
+          "todo": "Dă-l unui tortollan posedat ca să rupi concentrarea lui Mor’zahi.",
+          "focus": "Cel mai apropiat",
+          "wipe": "high"
+        },
+        {
+          "name": "Blink Nova",
+          "todo": "Împrăștiați-vă de ținta lui Scrollsage Iku.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Scrollsage Iku adună putere arcană și se teleportează la locația unui jucător: 750.066 damage Arcane tuturor. Jucătorii aflați mai departe de ținta lui Iku primesc mai puțin damage."
+        },
+        {
+          "name": "Icebound Flames",
+          "todo": "Interrupt — sau dispel pe efectul rămas după.",
+          "focus": "Interrupt",
+          "wipe": "medium",
+          "tip": "Iku lovește un jucător cu magie elementală: 833.407 damage Frostfire + 166.681 damage Frostfire pe secundă și viteză de mișcare −50%, timp de 12 sec."
+        },
+        {
+          "name": "Shredding Shards",
+          "todo": "Tank swap când urcă stack-urile de vulnerabilitate magică.",
+          "focus": "Tank",
+          "wipe": "medium",
+          "tip": "(channel 3,5 sec) Iku proiectează o serie de cioburi de gheață în ținta curentă: 83.341 damage Frost la fiecare 0,5 sec. Fiecare ciob crește damage-ul primit de la Shredding Shards cu 50%, timp de 1,3 min."
+        },
+        {
+          "name": "Frostfire Volley",
+          "todo": "Nu sta unde se suprapun patch-urile de fire și frost.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "Sub Mor’zahi’s Command, Iku lansează o rafală de proiectile elementale spre mai mulți jucători: 125.011 damage Fire sau Frost pe 10 yarzi + Burning Flames sau Piercing Frost. Fiecare proiectil lasă un patch elemental la impact. Impacturile declanșează Elemental Explosion dacă lovesc un jucător afectat de efectul opus."
+        },
+        {
+          "name": "Elemental Explosion",
+          "todo": "Nu lăsa Burning Flames să atingă un Frost Patch.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "Interacțiunea elementală volatilă provoacă 1.166.769 damage Frostfire tuturor jucătorilor."
+        },
+        {
+          "name": "Cataclysmic Invocation",
+          "todo": "Damage-ul crește cu fiecare aliat mort — omoară add-urile curat.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "(cast 7 sec) Când unul dintre aliații ei e învins, Iku dezlănțuie o explozie masivă: 1.166.769 damage Fire tuturor jucătorilor. Damage-ul crește cu fiecare cast."
+        },
+        {
+          "name": "Shell Spin",
+          "todo": "Nu sta în conul frontal.",
+          "focus": "Toți",
+          "wipe": "low",
+          "tip": "First Mate Nama aruncă trei carapace rotitoare într-un con în fața lui. Carapacele dau stun de 4 sec jucătorilor cu care intră în contact."
+        },
+        {
+          "name": "Mighty Thud",
+          "todo": "Împrăștiați-vă astfel încât saltul să aterizeze mereu pe cineva, nu pe toți.",
+          "focus": "Toți",
+          "wipe": "extreme",
+          "tip": "Sub Mor’zahi’s Command, Nama marchează trei jucători și sare la locațiile lor. Fiecare impact: 5.417.143 damage Physical împărțit egal între jucătorii pe 6 yarzi + knockback. Dacă Mighty Thud nu lovește niciun jucător, provoacă 5.417.143 damage Physical întregului raid."
+        },
+        {
+          "name": "United Defense",
+          "todo": "Ține cei trei tortollani departe unul de altul.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "First Mate Nama, Scrollsage Iku și Trader Gebbo își reduc damage-ul primit cu 99% cât timp sunt la sub 30 de yarzi unul de altul."
+        },
+        {
+          "name": "Steady Strikes",
+          "todo": "Tank swap pe măsură ce se acumulează damage-ul.",
+          "focus": "Tank",
+          "wipe": "medium",
+          "tip": "First Mate Nama primește +4% damage Physical împotriva țintei curente cu fiecare atac, timp de 30 sec."
+        },
+        {
+          "name": "Relentless Escalation",
+          "todo": "Omoară rapid add-urile rămase după ce moare unul.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "Când unul dintre aliații lui e învins, First Mate Nama primește +100% damage la fiecare 1 sec, timp de 30 sec."
+        },
+        {
+          "name": "Throw Junk",
+          "todo": "Nu călca lăzile neatent — provoacă Splinters.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "(cast 3 sec) Sub Mor’zahi’s Command, Trader Gebbo aruncă lăzi din inventarul lui: 1.000.088 damage Physical pe 3 yarzi la impact. Călcatul pe o ladă o sparge, provocând Splinters."
+        },
+        {
+          "name": "Mushroom Toss",
+          "todo": "Pleacă de pe ciuperci înainte să explodeze.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "(cast 7 sec) Trader Gebbo aruncă Bouncy Mushrooms la locațiile jucătorilor. Ciupercile îi aruncă pe jucători sus în aer la atingere."
+        },
+        {
+          "name": "Explosive Surprise",
+          "todo": "Pleacă de lângă marcajul bombei înainte să detoneze.",
+          "focus": "Cel marcat",
+          "wipe": "high",
+          "tip": "Trader Gebbo aruncă o bombă la locația unui jucător: 833.407 damage Physical pe 10 yarzi la impact."
+        },
+        {
+          "name": "Smashing Shovel",
+          "todo": "Atenție la knockback după ce moare un aliat.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Când unul dintre aliații lui e învins, Trader Gebbo scoate o lopată care provoacă +416.703 damage Physical și knockback cu fiecare lovitură."
+        }
+      ]
+    },
+    "vashnik": {
+      "overview": "Vashnik lucrează cu trei fântâni — Blood, Shadow și Flame — și fiecare Imbibe trage venin din două dintre ele spre Malignant Cavity din centru. Dacă un venin viu ajunge la cavitate, Malignant Burst lovește pe toată lumea, deci cineva urmărește mereu veninul cel mai apropiat. Plague Froth detonează în cruce la expirare — spread!",
+      "loot": "Loot: 298 ilvl (Normal) • Tier token: Piept (Chest)",
+      "roles": {
+        "tank": [
+          "<b class=\"m\">Dripping Fangs</b> e mecanica de tank: hit mare Physical, DoT lung de Nature și +100% damage Physical primit, cu stack. Taunt swap după fiecare <b class=\"m\">Dripping Fangs</b> sau când debuff-ul celuilalt tank a căzut.",
+          "Treaba mai importantă e poziționarea: mutați-l pe Vashnik între perechile de fântâni înainte de fiecare <b class=\"m\">Imbibe</b>. Dacă ajunge la full energy în locul greșit — felicitări, aia e combinația voastră de fântâni acum.",
+          "Întâi add-urile sub control, apoi porniți spre următoarea pereche cu timp de rezervă."
+        ],
+        "healer": [
+          "Mult damage predictibil. Burning Venoms dau damage constant prin Burning Presence și lovesc din nou cu <b class=\"m\">Caustic Surge</b> când mor — pe Heroic, omorâte împreună dau două stack-uri de DoT, deci eșalonați-le morțile.",
+          "Stygian Infection pune absorb-uri mari de healing pe jucători, iar Siphoning Infection blochează healing-ul normal pe țintă până se rezolvă mecanica.",
+          "Pe Heroic, <b class=\"m\">Malignant Catalyst</b> e alt eveniment mare de damage pe raid — atenție când se suprapune cu moartea add-urilor de Flame."
+        ],
+        "dps": [
+          "Regula principală: veninurile vii contează MEREU. Dacă unul ajunge în centru și declanșează <b class=\"m\">Malignant Burst</b>, tot raidul ia un hit uriaș + un DoT lung, pentru că cineva a vrut încă două globals pe boss.",
+          "Shadow adds = ținta mare de AoE. Blood add-ul se dă cleave cu Vashnik, apoi add-urile lui mici se ard imediat. Flame adds mor repede, dar eșalonat — <b class=\"m\">Caustic Surge</b> dublu doare.",
+          "Când valul curent e rezolvat, înapoi cu burn pe Vashnik cât îl mută tancurile spre următoarea pereche de fântâni."
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Imbibe",
+          "todo": "Urmărește care două fântâni sunt channel-ate următoarele.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Vashnik trage putere din două fântâni apropiate, infuzându-se cu puterea lor și primind o aplicare de Toxic Vapor. Fiecare fântână erupe și creează veninuri vii care se târăsc spre Malignant Cavity."
+        },
+        {
+          "name": "Blood Infusion",
+          "todo": "Omoară Clotting Venom înainte să ajungă la cavitate.",
+          "focus": "DPS",
+          "wipe": "medium",
+          "tip": "Vashnik se împuternicește cu venin de sânge pentru următorul Imbibe: +100% damage la Hemo Expulsion și +50% viață maximă pentru Clotting Venoms, timp de 1,5 min. Efectul face stack."
+        },
+        {
+          "name": "Hemo Expulsion",
+          "todo": "Hit pe tot raidul — se healează prin el.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Vashnik trage venin din Fountain of Blood: 108.343 damage Shadow tuturor jucătorilor."
+        },
+        {
+          "name": "Sanguineous Fortitude",
+          "todo": "Fără CC pe Clotting Venom până nu expiră buff-ul.",
+          "focus": "DPS",
+          "wipe": "low",
+          "tip": "Clotting Venom e fortificat când apare — protejat de efectele de crowd control până e distrus."
+        },
+        {
+          "name": "Splitting Clot",
+          "todo": "La moarte se împarte în add-uri mai mici — fii pregătit.",
+          "focus": "DPS",
+          "wipe": "low",
+          "tip": "Clotting Venom se împarte la moarte, creând Clotting Venoms mai mici."
+        },
+        {
+          "name": "Shadow Infusion",
+          "todo": "Omoară rapid Shrouded Venom.",
+          "focus": "DPS",
+          "wipe": "medium",
+          "tip": "Vashnik se împuternicește cu venin de umbră pentru următorul Imbibe: +100% damage la Gloom Expulsion și +50% viață maximă pentru Shrouded Venoms, timp de 1,5 min. Efectul face stack."
+        },
+        {
+          "name": "Umbral Ejection",
+          "todo": "Nu sta lângă Shrouded Venom când moare.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Shrouded Venoms explodează când sunt distruse, împroșcând venin de umbră: 541.714 damage Shadow jucătorilor pe 3 yarzi în jurul locurilor de impact."
+        },
+        {
+          "name": "Flame Infusion",
+          "todo": "Omoară Burning Venom înainte să ajungă la cavitate.",
+          "focus": "DPS",
+          "wipe": "medium",
+          "tip": "Vashnik se împuternicește cu venin de flacără pentru următorul Imbibe: +100% damage la Conflagrating Expulsion și +50% viață maximă pentru Burning Venoms, timp de 1,5 min. Efectul face stack."
+        },
+        {
+          "name": "Caustic Surge",
+          "todo": "Pleacă înainte ca Burning Venom să moară și să detoneze.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "(cooldown 3 sec) Burning Venoms explodează când sunt distruse: 75.007 damage Fire tuturor jucătorilor, 3 sec. Efectul face stack."
+        },
+        {
+          "name": "Toxic Vapor",
+          "todo": "Damage ambiental care face stack — healing susținut.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Vaporii toxici umplu aerul umed al camerei: 16.668 damage Nature la fiecare 2 sec. Efectul face stack."
+        },
+        {
+          "name": "Malignant Burst",
+          "todo": "Nu lăsa NICIODATĂ un venin viu să ajungă la cavitate.",
+          "focus": "Toți",
+          "wipe": "extreme",
+          "tip": "(cast 1,5 sec) Veninurile vii explodează când ajung la Malignant Cavity: 1.666.813 damage Nature tuturor jucătorilor + 333.363 damage Nature la fiecare 3 sec, timp de 30 sec. Efectul face stack."
+        },
+        {
+          "name": "Malignant Catalyst",
+          "todo": "Spread pentru Catalytic Bile care urmează.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "Vashnik închegă un orb de venin deasupra Malignant Cavity și apoi îl explodează: 291.692 damage Nature tuturor jucătorilor + lansează Catalytic Bile."
+        },
+        {
+          "name": "Plague Froth",
+          "todo": "Spread înainte să expire și să trimită valuri în exterior.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "Vashnik își acoperă victimele într-un venin coroziv: 50.004 damage Plague pe secundă jucătorilor pe 4,5 yarzi, timp de 6 sec. Când aura expiră, Plague Waves erup din țintă pe direcțiile cardinale."
+        },
+        {
+          "name": "Plague Wave",
+          "todo": "Nu sta pe liniile cardinale când erupe.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "Valuri de venin de ciumă erup din țintă: 500.044 damage Plague jucătorilor loviți."
+        },
+        {
+          "name": "Dripping Fangs",
+          "todo": "Tank swap pe măsură ce DoT-ul face stack.",
+          "focus": "Tank",
+          "wipe": "medium",
+          "tip": "(cast 2 sec) Vashnik mușcă din ținta curentă: 2.083.517 damage Physical + 250.022 damage Nature la fiecare 2 sec, timp de 32 sec. Crește damage-ul Physical primit cu 200%. Efectul face stack."
+        },
+        {
+          "name": "Adaptive Infection",
+          "todo": "Reacționează după veninul care te-a atins: blood, flame sau shadow.",
+          "focus": "Cei marcați",
+          "wipe": "medium",
+          "tip": "Vashnik infectează mai mulți jucători cu toxine, în funcție de infuziile lui curente."
+        }
+      ]
+    },
+    "sszorak": {
+      "overview": "Un beatdown direct, împachetat în knockback-uri constante, cu o singură fereastră reală de cooldown-uri: Dig In, la ~2 minute, când se îngroapă în timpul Howling Maelstrom și ia +30% damage timp de 25 secunde. Păstrează burst-ul pentru ea. Restul = combo-uri Apex Predator și globuri toxice care pedepsesc statul pe loc.",
+      "loot": "Loot: 298 ilvl (Normal) • Tier token: Picioare (Legs)",
+      "roles": {
+        "tank": [
+          "Pe lângă combo-ul <b class=\"m\">Apex Predator</b>, gestionați <b class=\"m\">Corroding Venom</b>: fiecare melee al lui Sszorak crește damage-ul Physical primit cu 3% pentru 12 sec, cu stack — swap când a căzut de pe celălalt tank.",
+          "În combo, atenție la secvența de frontale: un tank ia singur <b class=\"m\">Ravage</b>, iar la <b class=\"m\">Mutilate</b> ajută raidul la soak. Taunt-urile funcționează în timpul combo-ului, deci pasați-l pe Sszorak între tancuri după nevoie.",
+          "Înainte de <b class=\"m\">Howling Maelstrom</b>, aduceți boss-ul înapoi în mijloc, ca toată lumea să aibă loc pentru cele trei direcții de vânt."
+        ],
+        "healer": [
+          "Principalul check în afara combo-ului: <b class=\"m\">Venomous Surge</b> — cei vizați iau damage mare pe drum spre markere; aveți grijă să nu iasă din raza tuturor healerilor.",
+          "<b class=\"m\">Mutilate</b> e alt punct evident de damage. Pe Heroic, soak-urile repetate devin mult mai periculoase — dacă raidul împarte grupuri alternante de soak, țineți evidența cine trebuie să fie în fiecare.",
+          "Pe Heroic, <b class=\"m\">Caustic Claws</b> înseamnă și mai multă otravă pe jos în jurul <b class=\"m\">Venomous Surge</b> — cei vizați pot avea nevoie de atenție extra cât se poziționează."
+        ],
+        "dps": [
+          "Full single target — îl lovești pe Sszorak aproape tot timpul. Întrebarea reală e când folosești cooldown-urile mari.",
+          "Bloodlust on pull e complet ok. Dar <b class=\"m\">Dig In</b> dă 25 sec de +30% damage primit pe boss, ceea ce face din <b class=\"m\">Howling Maelstrom</b> fereastra evidentă de burn — dacă CD-urile mari se aliniază, păstrați-le.",
+          "Și cât țin vânturile, continuați damage-ul oricând vă permite clasa. Sszorak stă acolo luând +30% damage — nu petreceți cele 25 de secunde admirând tornadele."
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Howling Maelstrom",
+          "todo": "Pregătește-te pentru mișcare forțată repetată.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Altar of the Six Winds dezlănțuie o succesiune de rafale peste arenă. Fiecare rafală împinge jucătorii în direcția indicată."
+        },
+        {
+          "name": "Dig In",
+          "todo": "Păstrează cooldown-urile pentru fereastra asta — cel mai bun burst.",
+          "focus": "Toți",
+          "wipe": "low",
+          "tip": "(channel 25 sec) Sszorak se îngroapă în timpul Howling Maelstrom, crescând damage-ul primit de el cu 30%, timp de 25 sec."
+        },
+        {
+          "name": "Serpent’s Fury",
+          "todo": "Stack lângă ținta marcată înainte să aterizeze charge-ul. (doar Mythic)",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "Sszorak marchează un jucător și acumulează rage în timp. Dacă cel puțin 14 jucători sunt pe 8 yarzi în jurul celui marcat, Sszorak castează To the Slaughter și își consumă rage-ul. La 100 rage, Sszorak primește Unbound Ferocity și începe să măcelărească jucători."
+        },
+        {
+          "name": "Unbound Ferocity",
+          "todo": "Nu lăsa rage-ul lui să ajungă la 100.",
+          "focus": "Toți",
+          "wipe": "extreme",
+          "tip": "Sszorak intră într-o frenezie ucigașă: damage +500% și attack speed +50% până când toți dușmanii lui sunt morți sau pe moarte."
+        },
+        {
+          "name": "Apex Predator",
+          "todo": "Nimic de soak — doar supraviețuiește combo-ului.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Sszorak execută mai multe atacuri în succesiune rapidă. Efectele de Taunt îi pot schimba ținta curentă în timpul cast-ului."
+        },
+        {
+          "name": "Ravage",
+          "todo": "Boss-ul cu fața departe de raid.",
+          "focus": "Tank",
+          "wipe": "medium",
+          "tip": "(cast 3 sec) Sszorak taie repetat: 3.500.308 damage Physical tuturor jucătorilor dintr-un con frontal, iar damage-ul primit de la Ravage crește cu 600%, timp de 25 sec. Efectul face stack."
+        },
+        {
+          "name": "Mutilate",
+          "todo": "Împrăștiați-vă egal în conul frontal ca să împărțiți damage-ul.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "(cast 3 sec) Sszorak își trece ghearele pline de venin printr-un con frontal: 4.792.088 damage Nature împărțit egal între jucătorii loviți + Mutilated Gash. Dacă Mutilate lovește sub 5 jucători, damage-ul e letal."
+        },
+        {
+          "name": "Mutilated Gash",
+          "todo": "Damage-ul se împarte între cei loviți de Mutilate — mențineți spread-ul.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "Jucătorii loviți de Mutilate sunt sfâșiați de răni toxice: 1.041.758 damage Nature pe secundă, timp de 22 sec, împărțit egal între cei loviți. Crește damage-ul primit de la Mutilate."
+        },
+        {
+          "name": "Tempest",
+          "todo": "Ieși din vortexul otrăvitor.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "(cast 3,5 sec) Sszorak formează vortexuri de vânt otrăvitor care se rotesc prin arenă: 500.044 damage Nature + 208.352 damage Nature pe secundă și viteză de mișcare −30%, timp de 6 sec. Efectul face stack."
+        },
+        {
+          "name": "Venomous Surge",
+          "todo": "Nu atinge Viscous Cyst-ul lăsat în urmă.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "(channel 4 sec) Sszorak varsă venin proaspăt pe mai mulți jucători: 100.009 damage Nature pe secundă, timp de 10 sec. La expirare, veninul detonează formând un Viscous Cyst: 500.044 damage Nature tuturor, scăzând cu distanța."
+        },
+        {
+          "name": "Viscous Cyst",
+          "todo": "Sparge-l intenționat departe de raid — sau evită-l.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Un glob de toxină instabilă care persistă 2 min. La contact sau expirare, globul se sparge: knockback pentru toți + 500.044 damage Nature, apoi 75.007 damage Nature pe secundă și viteză −30%, timp de 5 sec. Efectul face stack. Toxinele lipite de jucători îi ajută să adere mai bine la sol cât persistă."
+        },
+        {
+          "name": "Caustic Claws",
+          "todo": "Nu sta în pool-ul de reziduuri lăsat în urmă.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Sszorak azvârle toxine din gheare: 750.066 damage Nature jucătorilor pe 6 yarzi de la impact + formează un bazin de Caustic Residue."
+        },
+        {
+          "name": "Raging Crosswinds",
+          "todo": "Pregătește-te să fii aruncat în direcția indicată.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Altar of the Six Winds îmbibă mai mulți jucători cu vânturi învolburate: 20.835 damage Nature pe secundă, timp de 8 sec. La expirare, vânturile provoacă 500.044 damage Nature pe 6 yarzi, apoi aruncă fiecare jucător afectat în direcția indicată și aplică Turbulent Gusts."
+        },
+        {
+          "name": "Corroding Venom",
+          "todo": "Tank swap pe măsură ce face stack reducerea de armură.",
+          "focus": "Tank",
+          "wipe": "medium",
+          "tip": "Ghearele pline de venin ale lui Sszorak corodează armura țintei: atacurile melee cresc damage-ul Physical primit de țintă cu 3%, timp de 12 sec. Efectul face stack."
+        },
+        {
+          "name": "Ula’tek’s Presence",
+          "todo": "Damage ambiental pe raid — ține pe toată lumea sus.",
+          "focus": "Toți",
+          "wipe": "low",
+          "tip": "Altar of the Six Winds emite o ceață caustică: 100.009 damage Nature tuturor jucătorilor la fiecare 2 sec."
+        }
+      ]
+    },
+    "twinfangs": {
+      "overview": "Vexhul și Ithraz pun Eternal Venom pe raid cu aproape fiecare abilitate — la limita de stack-uri mori pe loc. Ravenous Feast (Ithraz) e supapa: stai în el, iei hit-ul, pierzi un stack. Cine îl ignoră află pe pielea lui cum arată stack-ul următor.",
+      "loot": "Loot: 298 ilvl (Normal) • Tier token: Cască (Helm)",
+      "roles": {
+        "tank": [
+          "Două mecanici mari: <b class=\"m\">Caustic Deluge</b> (Vexhul) aplică <b class=\"m\">Envenomed</b>, care tot crește damage-ul primit de la Deluge-urile viitoare — nu lăsați un singur tank să-l acumuleze la nesfârșit.",
+          "<b class=\"m\">Stone Breaker</b> (Ithraz) crește damage-ul primit de la slam-urile următoare cu 33% per stack. Coordonați swap-urile ca să nu trimiteți un tank plin de stack-uri într-un set nou de Stone Breaker, iar FIECARE impact alb să aibă pe cineva în el.",
+          "Ambii boși au mereu pe cineva în melee range."
+        ],
+        "healer": [
+          "Fight-ul devine mai greu cu fiecare ciclu, pentru că <b class=\"m\">Eternal Venom</b> se tot acumulează pe raid — ăsta e soft enrage-ul.",
+          "Momente mari de healing: <b class=\"m\">Caustic Deluge</b> pe tank, hit-ul inevitabil din <b class=\"m\">Venomous Emergence</b>, <b class=\"m\">Stir the Depths</b> și mai ales cele trei soak-uri de <b class=\"m\">Ravenous Feast</b>.",
+          "Urmăriți jucătorii cu stack-uri mari de <b class=\"m\">Eternal Venom</b> și asigurați-vă că sunt repartizați la un <b class=\"m\">Ravenous Feast</b> care urmează.",
+          "La <b class=\"m\">Coiling Ichor</b>, cei vizați iau damage tot mai mare cât fug spre exterior — nu-i pierdeți doar pentru că stau lângă margine."
+        ],
+        "dps": [
+          "Cleave pe 2 ținte, dar boșii au bare de viață separate — țineți-i pe Vexhul și Ithraz cât mai egali pe tot parcursul.",
+          "Când <b class=\"m\">Venomous Emergence</b> invocă Spawn of Vexhul, swap și omorâți-i repede: fiecare <b class=\"m\">Corrosive Spit</b> în plus e o șansă ca cineva să ia un stack inutil de <b class=\"m\">Eternal Venom</b>.",
+          "Când un boss e low, opriți cleave-ul orb și echilibrați viața înainte de kill — dacă un șarpe moare prea devreme, <b class=\"m\">Uncoiled Wrath</b> dă supraviețuitorului damage crescut la fiecare 4 secunde și scapă de sub control rapid.",
+          "Există și un punct final dur: dacă ajungeți la al treilea ciclu de 100 energy fără să-i omorâți, arena devine <b class=\"m\">Vile Flood</b> și <b class=\"m\">Sanguine Storm</b> nonstop."
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Eternal Venom",
+          "todo": "Urmărește-ți stack-urile — fă soak înainte de limită.",
+          "focus": "Toți",
+          "wipe": "extreme",
+          "tip": "Lovitura anumitor abilități face să curgă un venin veșnic prin venele țintei: 10.001 damage Nature pe secundă. Efectul face stack. La 9 aplicări, ținta moare. (2 sec cooldown între aplicări)"
+        },
+        {
+          "name": "Caustic Deluge",
+          "todo": "Tank swap; pleacă de lângă globurile ejectate.",
+          "focus": "Tank",
+          "wipe": "high",
+          "tip": "(cast 1 sec) Vexhul toarnă toxină în ținta curentă timp de 5 sec: 250.022 damage Nature la fiecare 0,5 sec + stropi de acid. Fiecare strop provoacă 916.747 damage Nature și aplică Eternal Venom pe 4 yarzi, formând un Caustic Globule la locul impactului."
+        },
+        {
+          "name": "Caustic Globule",
+          "todo": "Nu-l atinge — lasă-l să se spargă singur.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Un glob acid care se rupe după 10 sec: 666.725 damage Nature + Eternal Venom pentru toți. La contact, globul afectează în schimb doar acel jucător."
+        },
+        {
+          "name": "Envenomed",
+          "todo": "Tank swap pe măsură ce crește damage-ul de la Caustic Deluge.",
+          "focus": "Tank",
+          "wipe": "medium",
+          "tip": "Damage-ul de la Caustic Deluge crește damage-ul primit de la Caustic Deluge cu 10%, timp de 1,5 min. Efectul face stack."
+        },
+        {
+          "name": "Venomous Emergence",
+          "todo": "Omoară rapid Spawn of Vexhul când ies la suprafață.",
+          "focus": "DPS",
+          "wipe": "medium",
+          "tip": "(cast 3 sec) Vexhul își cheamă progeniturile din marea agitată: 125.011 damage Nature + Eternal Venom pentru toți jucătorii."
+        },
+        {
+          "name": "Corrosive Spit",
+          "todo": "Interrupt sau omoară spawn-ul care castează.",
+          "focus": "DPS",
+          "wipe": "medium",
+          "tip": "(cast 5 sec) Spawn-ul se concentrează pe un jucător și scuipă toxină într-o linie frontală: 666.725 damage Nature + Eternal Venom celor loviți."
+        },
+        {
+          "name": "Stir the Depths",
+          "todo": "Ferește-te de valurile care traversează platforma.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "(channel 6 sec) Vexhul agită marea de venin din jur timp de 6 sec: 166.681 damage Nature tuturor la fiecare 2 sec + formează valuri. Valurile traversează platforma: 125.011 damage Nature pe secundă + Eternal Venom celor loviți."
+        },
+        {
+          "name": "Vile Flood",
+          "todo": "Ieși IMEDIAT din channel-ul frontal.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "(cast 4 sec) Vexhul channelează un torent continuu de toxină în față timp de 14 sec: 416.703 damage Nature la fiecare 0,5 sec + Eternal Venom celor loviți."
+        },
+        {
+          "name": "Blood Torrent",
+          "todo": "Interrupt pe shield-ul Barbed Bulwark din jurul globurilor. (doar Mythic)",
+          "focus": "Interrupt",
+          "wipe": "medium",
+          "tip": "(cast 1 sec) Ithraz channelează un torent de sânge în ținta lui timp de 5 sec: la fiecare 1 sec aplică un absorb de healing de 426.295. Efectul face stack. Sângele expulzat se adună în jurul fiecărui Caustic Globule, formând un Barbed Bulwark."
+        },
+        {
+          "name": "Rouse the Brood",
+          "todo": "Omoară Broodlings of Ithraz înainte de Visceral Burst. (doar Mythic)",
+          "focus": "DPS",
+          "wipe": "medium",
+          "tip": "(cast 3 sec) Ithraz se zbate, chemând mai mulți Broodlings of Ithraz la suprafață și eliberând o nova de sânge: 208.352 damage Shadow tuturor jucătorilor."
+        },
+        {
+          "name": "Ravenous Feast",
+          "todo": "Stai în el ca să faci soak și să scazi un stack de Eternal Venom.",
+          "focus": "Toți",
+          "wipe": "extreme",
+          "tip": "(cast 4,25 sec) Ithraz încearcă să consume jucători de 3 ori în succesiune rapidă. Fiecare lovitură: 4.625.407 damage Physical împărțit egal între jucătorii pe 14 yarzi. Ithraz consumă 1 aplicare de Eternal Venom de la cei loviți, le aplică Feasted și îi aruncă."
+        },
+        {
+          "name": "Feasted",
+          "todo": "Nu lua același hit de două ori.",
+          "focus": "Cine face soak",
+          "wipe": "medium",
+          "tip": "Crește damage-ul primit de la Ravenous Feast timp de 8 sec și împiedică Ithraz să mai consume aplicări de Eternal Venom de la acest jucător."
+        },
+        {
+          "name": "Coiling Ichor",
+          "todo": "Spread — se strânge și lovește mai tare cu cât durează mai mult.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "(cast 3 sec) Ithraz infuzează mai mulți jucători cu icor: 75.007 damage Shadow pe secundă, timp de 12 sec. În timp, icorul provoacă damage tot mai mare pe măsură ce aria se strânge. La expirare, icorul formează un bazin de Congealed Gore."
+        },
+        {
+          "name": "Congealed Gore",
+          "todo": "Ieși din pool-ul lăsat în urmă.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Un bazin de sânge gros persistă 2 min: 83.341 damage Shadow pe secundă și viteză de mișcare −50% pentru jucătorii din el."
+        },
+        {
+          "name": "Stone Breaker",
+          "todo": "Stai în rază — un slam neîncasat lovește tot raidul.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "(cast 1,5 sec) Ithraz rage, împingând jucătorii, apoi izbește platforma repetat. Fiecare impact: 2.500.220 damage Physical pe 3,5 yarzi + damage-ul primit de la Stone Breaker crește cu 33%, timp de 1,5 min. Efectul face stack. Dacă niciun jucător nu e lovit, Ithraz provoacă în schimb 916.747 damage Physical tuturor + knockback. Efectul ignoră armura."
+        },
+        {
+          "name": "Sanguine Storm",
+          "todo": "Spread ca să eviți suprapunerea globurilor.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "(channel 18 sec) Ithraz împroașcă platforma cu globuri de sânge timp de 18 sec. Fiecare impact: 500.044 damage Shadow jucătorilor pe 4 yarzi."
+        },
+        {
+          "name": "Submerge",
+          "todo": "Pleacă de pe marginile platformei cât timp sunt scufundați.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Gemenii se scufundă, împroșcând zona din apropiere cu venin: 500.044 damage Nature jucătorilor pe 6 yarzi de fiecare impact + formează un Noxious Slick."
+        },
+        {
+          "name": "Noxious Slick",
+          "todo": "Nu lupta în interiorul bălții lăsate în urmă.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "O peliculă de fluid nociv acoperă platforma: 83.341 damage Nature pe secundă, iar damage-ul primit de jucătorii din ea crește cu 30%."
+        },
+        {
+          "name": "Uncoiled Wrath",
+          "todo": "Omoară al doilea șarpe rapid după ce moare primul.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "Când Vexhul sau Ithraz moare, șarpele supraviețuitor intră într-o furie răzbunătoare: +30% damage la fiecare 4 sec. Efectul face stack."
+        }
+      ]
+    },
+    "altar": {
+      "overview": "Trei fight-uri capsate împreună: Zul’jan deschide cu topoare Guillotine și un self-buff de otravă, Hex Lord Malacrass preia apoi și posedă jucători cu Dreadmarch, iar în faza finală cei doi se leagă prin Soulbinding — dacă unul trăiește prea mult după moartea celuilalt, primește +500% attack speed și damage. Ține-le viața egală.",
+      "loot": "Loot: 302 ilvl (Normal) • 2 cantrip weapons",
+      "roles": {
+        "tank": [
+          "Swap după fiecare <b class=\"m\">Sever</b>, <b class=\"m\">Soul Sever</b> sau Blighted Sever.",
+          "Poziționarea bună a frontalelor e cea mai mare responsabilitate de tank din acest fight."
+        ],
+        "healer": [
+          "Fiți gata pentru stack-urile de <b class=\"m\">Venom Rupture</b>, soak-urile de <b class=\"m\">Guillotine</b>, soak-urile de fragmente din timpul <b class=\"m\">Soulbinding</b> și absorb-urile mari de healing din Phase 3."
+        ],
+        "dps": [
+          "Spargeți <b class=\"m\">Dreadmarch</b> rapid, omorâți Spiteful Soulcoiler, distrugeți Veil of Twilight (<b class=\"m\">Eternal Nightfall</b>), burn pe Zul’jan în timpul <b class=\"m\">Soulbinding</b> și echilibrați viața ambilor boși în Phase 3."
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Fangs of the Coiled Altar",
+          "todo": "Atenție la Noxious Ground care se adună sub statuile de șarpe.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "(channel 8 sec) Zul’jan channelează puterea Altarului: 83.341 damage Nature tuturor jucătorilor + primește 3 aplicări de Twinfang Toxin la fiecare 1 sec, timp de 8 sec. Gurile Altarului dau pe dinafară, revărsând Noxious Ground sub ele — se umflă rapid și se retrage încet."
+        },
+        {
+          "name": "Twinfang Toxin",
+          "todo": "Damage stacking pe auto-attack — se healează prin el.",
+          "focus": "Tank",
+          "wipe": "low",
+          "tip": "Atacurile melee ale lui Zul’jan consumă aplicări de Twinfang Toxin, provocând încă 333.363 damage Nature țintei lui curente."
+        },
+        {
+          "name": "Toxic Deluge",
+          "todo": "Distruge globurile Coalesced Venom înainte să calce cineva pe ele.",
+          "focus": "DPS",
+          "wipe": "high",
+          "tip": "Crucible-ul scuipă venin în cameră: 541.715 damage Nature jucătorilor pe 4 yarzi de la locurile de impact + creează Coalesced Venom."
+        },
+        {
+          "name": "Venom Rupture",
+          "todo": "Nu sta grămadă lângă un glob abia spart.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "Globul explodează, provocând damage până e anulat. Efectul face stack."
+        },
+        {
+          "name": "Volatile Venom",
+          "todo": "Pleacă de lângă ceilalți odată ce ești marcat.",
+          "focus": "Cel marcat",
+          "wipe": "medium",
+          "tip": "Veninul lui Ula’tek reacționează violent la jucător: 83.341 damage Nature pe secundă jucătorilor pe 5 yarzi, timp de 5 sec. La expirare, creează un Coalesced Venom."
+        },
+        {
+          "name": "Guillotine",
+          "todo": "Stack lângă țintă; toți ceilalți spread la peste 40 de yarzi.",
+          "focus": "Toți",
+          "wipe": "extreme",
+          "tip": "(cast 3,5 sec) Zul’jan își aruncă toporul într-un jucător: 5.417.143 damage Physical împărțit egal între jucătorii pe 9 yarzi de țintă + damage-ul primit de la Guillotine crește cu 500%, timp de 1,7 min. Ignoră armura. Toporul se umflă apoi cu otravă și erupe cu Widow’s Kiss. Dacă Guillotine nu lovește cel puțin 5 jucători, toporul provoacă în schimb o Execution."
+        },
+        {
+          "name": "Widow’s Kiss",
+          "todo": "Pleacă de lângă topor înainte să erupă.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "Toporul erupe într-o coloană violentă care împrăștie o toxină mortală: 1.250.110 damage Nature jucătorilor pe 40 de yarzi."
+        },
+        {
+          "name": "Sever",
+          "todo": "Tank-ul ține boss-ul cu fața departe de raid.",
+          "focus": "Tank",
+          "wipe": "medium",
+          "tip": "(channel 3,5 sec) Zul’jan dezlănțuie un cleave puternic asupra țintei curente: 3.333.627 damage Physical jucătorilor dintr-un con frontal + damage-ul primit de la Sever crește cu 200%, timp de 30 sec. Distruge Coalesced Venoms și Virulent Mutations."
+        },
+        {
+          "name": "Venomfang",
+          "todo": "Pasează debuff-ul călător între jucători conform strategiei.",
+          "focus": "Cel marcat",
+          "wipe": "medium",
+          "tip": "(cast 2 sec) Zul’jan aruncă un topor otrăvit între mai mulți jucători: 125.011 damage Nature la fiecare 2 sec, timp de 14 sec."
+        },
+        {
+          "name": "Axegrinder",
+          "todo": "Atenție la topoarele care rătăcesc pe arenă.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "(cast 2 sec) Zul’jan azvârle topoare: 583.498 damage Physical jucătorilor pe 4 yarzi de fiecare punct de impact + knockback. Topoarele rătăcesc apoi prin arenă timp de 3 min: 104.176 damage Physical la fiecare 0,25 sec celor atinși. Efectul ignoră armura."
+        },
+        {
+          "name": "Dreadmarch",
+          "todo": "Eliberează jucătorii posedați înainte să iasă de pe margine.",
+          "focus": "Toți",
+          "wipe": "extreme",
+          "tip": "(cast 2 sec) Malacrass posedă mai mulți jucători: aceștia absorb 568.393 damage în timp ce mărșăluiesc spre marginea platformei ca să sară în moarte. La eliberare, 2 Manifestations of Dread ies din jucătorul posedat."
+        },
+        {
+          "name": "Unnerving Fixation",
+          "todo": "Uită-te fix la Manifestation of Dread ca să nu-și atingă ținta.",
+          "focus": "Cel fixat",
+          "wipe": "high",
+          "tip": "(channel) O Manifestation of Dread privește un jucător aleatoriu, apropiindu-se de el ori de câte ori jucătorul NU se uită înapoi la ea. Dacă își atinge ținta, o posedă cu Dreadmarch."
+        },
+        {
+          "name": "Soul Sever",
+          "todo": "Boss cu fața de la raid; calcă pe Soul Fragments ca să scapi de Gravebound.",
+          "focus": "Tank",
+          "wipe": "high",
+          "tip": "(cast 4 sec) Malacrass dezlănțuie o explozie de energie shadow asupra țintei curente: 666.726 damage Shadow jucătorilor dintr-un con frontal + damage-ul primit de la Soul Sever crește cu 200% + 125.011 damage Shadow la fiecare 2 sec, timp de 36 sec. Jucătorii loviți primesc Gravebound. Distruge Manifestations of Dread."
+        },
+        {
+          "name": "Gravebound",
+          "todo": "Recuperează un Soul Fragment înainte să expire timer-ul.",
+          "focus": "Cel afectat",
+          "wipe": "high",
+          "tip": "Sufletul jucătorului e fracturat până când Soul Fragments îi sunt recuperate. Călcarea pe un fragment recuperează o parte din suflet: 208.352 damage Shadow. La expirare, jucătorul încetează să existe."
+        },
+        {
+          "name": "Eternal Nightfall",
+          "todo": "Sparge shield-ul Veil of Twilight ca să întrerupi cast-ul.",
+          "focus": "DPS",
+          "wipe": "extreme",
+          "tip": "(cast 15 sec) Malacrass se înconjoară cu un Veil of Twilight, pregătind un atac devastator: 2.500.220 damage Shadow + 416.703 damage Shadow pe secundă tuturor jucătorilor. Amurgul cade peste arenă, aplicând stack-uri suplimentare de Suffocating Darkness jucătorilor pe 5 yarzi de fiecare impact. Spell-ul poate fi întrerupt doar dacă shield-ul e spart."
+        },
+        {
+          "name": "Spiritcackle",
+          "todo": "Omoară spiritele invocate rapid — dau fear cu întârziere.",
+          "focus": "DPS",
+          "wipe": "medium",
+          "tip": "(channel 3 sec) Malacrass cheamă spiritele să se manifeste: invocă mai mulți Spiteful Soulcoilers care îl ajută în luptă."
+        },
+        {
+          "name": "Wail of Terror",
+          "todo": "Doar un fear — repoziționează-te după ce se rupe.",
+          "focus": "Toți",
+          "wipe": "low",
+          "tip": "(cast 7 sec, cooldown 1 sec) Un țipăt terifiant e eliberat, dând fear tuturor jucătorilor timp de 5 sec."
+        },
+        {
+          "name": "Gloombomb",
+          "todo": "Spread înainte să expire marcajul de pe tine.",
+          "focus": "Cel marcat",
+          "wipe": "medium",
+          "tip": "(cast 2 sec) Malacrass infuzează jucători cu umbră, marcându-i 5 sec. La expirare, explodează: 500.044 damage Shadow jucătorilor pe 15 yarzi. Cei loviți primesc și Gravebound."
+        },
+        {
+          "name": "Soulbinding",
+          "todo": "Omoară Fragments of Malacrass înainte să-l healeze pe Zul’jan.",
+          "focus": "DPS",
+          "wipe": "high",
+          "tip": "(channel 35 sec) Malacrass începe un ritual de legare a sufletului său de Zul’jan, aplicând Ghastly Regeneration — orice healing primit de Zul’jan e duplicat pe Malacrass. Fragments of Malacrass ies din corpul lui Zul’jan cât ține ritualul și încearcă să se întoarcă la noua lor gazdă."
+        },
+        {
+          "name": "Soulbound",
+          "todo": "Ține viața ambilor boși egală — niciunul nu moare prea devreme.",
+          "focus": "Toți",
+          "wipe": "extreme",
+          "tip": "Malacrass își leagă sufletul de al lui Zul’jan: dacă unul e învins, celălalt intră în berserk — attack speed și damage +500%."
+        }
+      ]
+    },
+    "ulatek": {
+      "overview": "Ula’tek închide raidul în trei stagii: valuri de venin și ouă în Fury of the Serpent Mother, o fază de add-uri cu Doomscale Warden, apoi finalul de ascensiune în care rupe platforma. Expune-i Venomous Heart în timpul Rage of the Shackled și dă-i burn imediat — alternativa e Fury Unleashed, un hit în două părți care începe cu peste 2,5 milioane damage.",
+      "loot": "Loot: 302 ilvl Normal / 344 Mythic • Curio tier tokens • Mount: Primeval Skyfriend (Mythic)",
+      "roles": {
+        "tank": [
+          "Nu-l lăsați NICIODATĂ pe Ula’tek fără țintă de melee — altfel pedepsește raidul (<b class=\"m\">Unchecked Rage</b>, <b class=\"m\">Rattler Slam</b>).",
+          "Fiți gata de swap în jurul <b class=\"m\">Mother’s Wrath</b> și al stack-urilor de Stone Venom.",
+          "În Phase 2, luați Ravenous Doomscale și întoarceți-l cu fața de la grup pentru Desperate Thrash."
+        ],
+        "healer": [
+          "Fiecare Blightscale Viper eclozat din otravă adaugă presiune permanentă de <b class=\"m\">Putrid Membrane</b>.",
+          "Păstrați cooldown-urile de raid pentru <b class=\"m\">Spectral Coils</b>, <b class=\"m\">Rage of the Shackled</b> și intermission-ul Necrotic Vapors."
+        ],
+        "dps": [
+          "Prioritatea mare: opriți ouăle să se transforme în add-uri mai puternice. Omorâți <b class=\"m\">Blightscale Clutch</b> înainte să termine de crescut, interrupt pe Malice.",
+          "Swap IMEDIAT pe <b class=\"m\">Venomous Heart</b> ori de câte ori <b class=\"m\">Rage of the Shackled</b> o expune."
+        ]
+      },
+      "abilities": [
+        {
+          "name": "Caustic Waves",
+          "todo": "Ferește-te de linia de venin și ține-o departe de ouăle neeclozate.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "Ula’tek trimite valuri de venin peste platformă: 917.189 damage Nature la impact + 540.199 damage Nature pe secundă, timp de 10 sec, celor aflați în calea lor. Efectul face stack. Valurile care ating ouăle lui Ula’tek le fac să eclozeze instant."
+        },
+        {
+          "name": "Call of the Serpent",
+          "todo": "Fii atent la tavan — cad spawn-uri.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "(cast 4 sec) Ula’tek rage, scuturându-și copiii din tavan și făcându-i să cadă pe platformă."
+        },
+        {
+          "name": "Mother’s Wrath",
+          "todo": "Tank-ul rămâne în rază, altfel tot raidul ia hit-ul.",
+          "focus": "Tank",
+          "wipe": "high",
+          "tip": "(cast 5 sec) Ula’tek își aruncă ținta cu un knockback și o marchează pentru mânie: 375.033 damage Nature la fiecare 0,4 sec, timp de 3 sec, cât e în raza atacului ei. Fiecare mușcătură injectează Stone Venom și aplică Hobbled. Dacă ținta curentă e în afara razei ei, Ula’tek aplică aceste efecte TUTUROR jucătorilor."
+        },
+        {
+          "name": "Rattler Slam",
+          "todo": "Tank-ul stă permanent în melee range.",
+          "focus": "Tank",
+          "wipe": "medium",
+          "tip": "(cast 0,7 sec, cooldown 3 sec) Când nu e în melee combat, coada lui Ula’tek izbește platforma: 916.747 damage Nature tuturor jucătorilor."
+        },
+        {
+          "name": "Mephitic Thrash",
+          "todo": "Ieși din raza măturării de coadă.",
+          "focus": "Toți",
+          "wipe": "medium",
+          "tip": "(cast 5 sec) Coada lui Ula’tek mătură pământul: 750.066 damage Nature jucătorilor pe 35 de yarzi + knockback. În plus, jucătorii din afara a 35 de yarzi primesc 541.714 damage Nature + 116.677 damage Nature la fiecare 2 sec, timp de 10 sec."
+        },
+        {
+          "name": "Spectral Coils",
+          "todo": "Stack împreună sub coils ca să împărțiți damage-ul.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "Colacii spectrali ai lui Ula’tek se ridică deasupra platformei și zdrobesc tot ce e sub ei: 833.407 damage Nature tuturor jucătorilor. Damage-ul e redus de numărul jucătorilor aflați pe 10 yarzi în jurul locului de impact."
+        },
+        {
+          "name": "Unchecked Rage",
+          "todo": "Melee range-ul nu rămâne NICIODATĂ gol.",
+          "focus": "Tank",
+          "wipe": "medium",
+          "tip": "Dacă Ula’tek nu poate lovi în melee un jucător din apropiere când nu castează sau channelează, provoacă damage Physical tuturor jucătorilor."
+        },
+        {
+          "name": "Rage of the Shackled",
+          "todo": "Dodge la Falling Debris, apoi burn pe inimă în momentul expunerii.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "(cast 6,5 sec) Ula’tek se înfurie: 416.703 damage Nature la fiecare 4 sec tuturor jucătorilor, timp de 20 sec + Falling Debris lovește mai multe locații aleatorii. Intrarea în această furie expune Venomous Heart-ul lui Ula’tek."
+        },
+        {
+          "name": "Venomous Heart",
+          "todo": "Burn cu cooldown-uri imediat — fereastra de expunere e scurtă.",
+          "focus": "DPS",
+          "wipe": "medium",
+          "tip": "(channel 20 sec) Inima pulsândă a lui Ula’tek: tot damage-ul primit de Venomous Heart e crescut cu 100%, timp de 20 sec."
+        },
+        {
+          "name": "Devourer’s Spawn",
+          "todo": "Omoară ouăle înainte să eclozeze în Vipers.",
+          "focus": "DPS",
+          "wipe": "medium"
+        },
+        {
+          "name": "Putrid Membrane",
+          "todo": "Damage ambiental după ecloziunea unui Viper — healing constant.",
+          "focus": "Toți",
+          "wipe": "low",
+          "tip": "Când ouăle lui Ula’tek eclozează într-un Blightscale Viper, acesta împroașcă o membrană peste toți jucătorii: 33.336 damage Nature pe secundă, timp de 1 oră."
+        },
+        {
+          "name": "Writhing Gestation",
+          "todo": "Interrupt sau omoară Doomscale Wardens înainte să maturizeze clutch-urile.",
+          "focus": "DPS",
+          "wipe": "medium",
+          "tip": "(channel 20 sec) Doomscale Warden transformă Blightscale Spawn din apropiere într-un Blightscale Clutch care eclozează după 20 sec."
+        },
+        {
+          "name": "Blightscale Clutch",
+          "todo": "Sparge grupul de ouă înainte să devină prea puternic.",
+          "focus": "DPS",
+          "wipe": "medium",
+          "tip": "Spawn-ul lui Ula’tek din interiorul clutch-ului crește în putere în timpul Writhing Gestation cât timp acesta rămâne nespart."
+        },
+        {
+          "name": "Serpent’s Bite",
+          "todo": "Leech pe otravă în 15 secunde sau te transformi în piatră.",
+          "focus": "Cel marcat",
+          "wipe": "extreme",
+          "tip": "Ula’tek își înfige colții în mai mulți jucători, aplicând un venin: 416.703 damage Nature la impact + 100.009 damage Nature pe secundă, timp de 15 sec. La expirare, jucătorul e transformat într-un Calcified Corpse. Jucătorii pe 7 yarzi pot suge (leech) veninul ca să-l elimine, dar se infectează cu Volatile Purge."
+        },
+        {
+          "name": "Circling Prey",
+          "todo": "Stai în interiorul celor 13 yarzi când rupe platforma — ferește-te de margine.",
+          "focus": "Toți",
+          "wipe": "high",
+          "tip": "Ula’tek distruge o porțiune din platformă, trăgându-și prada mai aproape: 2.500.220 damage Nature + knockback jucătorilor pe 13 yarzi. În plus, jucătorii din afara a 13 yarzi primesc 625.055 damage Nature."
+        },
+        {
+          "name": "Fury Unleashed",
+          "todo": "Cooldown-uri defensive pregătite înainte de enrage.",
+          "focus": "Toți",
+          "wipe": "extreme",
+          "tip": "(cast 1,6 sec) Ula’tek își sfâșie închisoarea: 2.500.220 damage Nature tuturor jucătorilor imediat, apoi încă 916.747 damage Nature pe secundă."
+        }
+      ]
+    }
+  }
+}
