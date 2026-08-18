@@ -1,6 +1,6 @@
 {
   "version": "2026-08-18 18:09",
-  "updatedAt": "2026-08-18T18:09:44.452Z",
+  "updatedAt": "2026-08-18T18:09:46.873Z",
   "raid": {
     "name": "The Venomous Abyss",
     "tagline": "8 Boși • Adâncurile Veninoase",
@@ -1657,6 +1657,12 @@
       "text": "RAID LA ORA 20",
       "author": "Phope",
       "createdAt": "2026-08-18T18:08:20.101Z"
+    },
+    {
+      "id": "msyz9bi1httg",
+      "text": "Compoziția / progresul pentru Week 2 au fost actualizate!",
+      "author": "Phope",
+      "createdAt": "2026-08-18T18:09:46.873Z"
     }
   ]
 }
