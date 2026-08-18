@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-18 13:21",
-  "updatedAt": "2026-08-18T13:21:19.091Z",
+  "version": "2026-08-18 17:57",
+  "updatedAt": "2026-08-18T17:57:48.668Z",
   "raid": {
     "name": "The Venomous Abyss",
     "tagline": "8 Boși • Adâncurile Veninoase",
@@ -51,7 +51,7 @@
         "id": "nekzali",
         "name": "Nek’zali the Soulcoiler",
         "theme": "Spirit summoning, venom rituals",
-        "youtube": "",
+        "youtube": "https://www.youtube.com/watch?v=YBn4-mMBLs4",
         "order": 1,
         "quick": [
           "2 faze + Intermission",
@@ -1610,5 +1610,7 @@
         }
       ]
     }
-  }
+  },
+  "raidState": {},
+  "announcements": []
 }
