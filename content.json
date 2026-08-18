@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-18 18:56",
-  "updatedAt": "2026-08-18T18:56:14.419Z",
+  "version": "2026-08-18 18:57",
+  "updatedAt": "2026-08-18T18:57:14.092Z",
   "raid": {
     "name": "The Venomous Abyss",
     "tagline": "8 Boși • Adâncurile Veninoase",
@@ -1613,30 +1613,34 @@
   },
   "raidState": {
     "weeks": [
-      "Week 1",
-      "Week 2"
+      "Week 1"
     ],
     "rosterByWeek": {
       "Week 1": [
         {
-          "name": "Jan",
-          "role": "healer",
+          "name": "123",
+          "role": "tank",
           "group": 1
-        }
-      ],
-      "Week 2": [
+        },
         {
-          "name": "sasa",
+          "name": "456",
           "role": "healer",
-          "group": 1
+          "group": 2
+        },
+        {
+          "name": "789",
+          "role": "dps",
+          "group": 3
         }
       ]
     },
     "killsByWeek": {
       "Week 1": {
-        "normal": {}
-      },
-      "Week 2": {}
+        "normal": {
+          "nekzali": true,
+          "sentinels": false
+        }
+      }
     }
   },
   "announcements": [
