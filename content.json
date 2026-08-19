@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-18 18:57",
-  "updatedAt": "2026-08-18T18:57:40.729Z",
+  "version": "2026-08-19 10:18",
+  "updatedAt": "2026-08-19T10:18:47.793Z",
   "raid": {
     "name": "The Venomous Abyss",
     "tagline": "8 Boși • Adâncurile Veninoase",
@@ -452,44 +452,72 @@
         "youtube": "",
         "order": 8,
         "quick": [
-          "3 stagii",
+          "3 faze + Intermission",
           "Final boss",
-          "Loot maxim al tier-ului"
+          "Bloodlust: înainte de Phase 3 (faza de inimă)"
         ],
         "sections": [
           {
-            "title": "Stage 1 — Fury of the Serpent Mother",
-            "kind": "phase",
+            "title": "Tot fight-ul",
+            "kind": "info",
             "items": [
-              "Valuri de venin (<b class=\"m\">Caustic Waves</b>) — ferește-te de linie și ține-o departe de ouăle neeclozate.",
-              "<b class=\"m\">Devourer’s Spawn</b>: omoară ouăle înainte să eclozeze în Vipers.",
-              "<b class=\"m\">Spectral Coils</b>: stack împreună ca să împărțiți damage-ul.",
-              "Tanks: <b class=\"m\">Mother’s Wrath</b> și <b class=\"m\">Rattler Slam</b> — rămâi permanent în melee range, altfel tot raidul ia hit-ul."
+              "<b>Bloodlust</b> înainte de Phase 3, pe faza de inimă.",
+              "Boss-ul începe cu 3 ouă. Boss-ul și o coadă apar de la început — un tank pe boss, unul pe coadă."
             ]
           },
           {
-            "title": "Stage 2 — Doomscale Warden (add phase)",
+            "title": "Phase 1",
+            "kind": "phase",
+            "items": [
+              "Cine ține un ou în mână NU poate fi lovit de valurile de otravă (<b class=\"m\">Caustic Waves</b>).",
+              "Valurile vin dinspre boss, în diagonală pe platformă, plus câteva dinspre coadă.",
+              "Apar mai multe ouă — oamenii trebuie să le ridice fără să fie loviți de valuri.",
+              "La un moment dat, coada scoate 2 cercuri mari care trebuie soak-uite: <b>întâi dreapta, apoi stânga</b>.",
+              "După fiecare soak apar add-uri — dați-le CC și omorâți-le.",
+              "După soak-uri, tentaculul dă un hit de cerc — nu stați în el.",
+              "Când inima boss-ului e expusă (<b class=\"m\">Venomous Heart</b>), dați damage pe inimă și feriți-vă de swirlies — <b>păstrați 2 minute de cooldown-uri pentru faza de inimă</b>."
+            ]
+          },
+          {
+            "title": "Phase 2",
+            "kind": "phase",
+            "items": [
+              "Împărțiți raidul în 2 jumătăți.",
+              "Fiecare parte omoară Doomscale Warden-ul, ia oul și îl duce în cazan (cauldron).",
+              "Când Warden-ul dă cast la <b class=\"m\">Writhing Gestation</b>, trebuie omorâte ouăle.",
+              "Ula’tek apare periodic pe partea ta — ferește-te de swirlies pe care le lasă.",
+              "Omorâți add-urile care apar: interrupt și nu stați în frontal.",
+              "Toată lumea revine pe platforma principală și primiți încă o fază de inimă — <b>păstrați cooldown-uri</b>."
+            ]
+          },
+          {
+            "title": "Intermission",
             "kind": "inter",
             "items": [
-              "Interrupt sau omoară <b class=\"m\">Doomscale Wardens</b> înainte ca <b class=\"m\">Writhing Gestation</b> să maturizeze clutch-urile de ouă.",
-              "<b class=\"m\">Slithering Clutch</b>: sparge grupul de ouă înainte să devină prea puternic.",
-              "<b class=\"m\">Surging Fang</b>: leech pe otravă în 15 secunde sau te transformi în piatră."
+              "Cozi fantomă (ghost tails) apar pe laterale.",
+              "Mai multe ouă apar și pe platformă — ridicați-le.",
+              "<b class=\"m\">Spectral Coils</b>: soak în grup + omorâți add-urile (3 soak-uri pe Normal).",
+              "Mutați-vă la coada nouă care apare.",
+              "Platforma se rupe în 4 bucăți — <b>NU STAȚI ÎN MIJLOCUL PLATFORMEI</b>."
             ]
           },
           {
-            "title": "Stage 3 — Ascensiunea",
+            "title": "Phase 3",
             "kind": "phase",
             "items": [
-              "Rupe platforma — <b class=\"m\">Demolish</b>: pleacă de lângă slam-ul de coadă și knockback.",
-              "<b class=\"m\">Rage of the Shackled</b>: dodge la Falling Debris, apoi <b>burn imediat</b> pe <b class=\"m\">Venomous Heart</b> când e expusă — fereastra e scurtă.",
-              "Dacă nu spargi inima la timp: <b class=\"m\">Fury Unleashed</b> — hit în două părți, începe cu peste 2,5 milioane damage. Defensive pregătite."
+              "Omorâți add-urile de pe toate platformele — ranged DPS se ocupă de cele din platformele îndepărtate, melee rămân pe boss.",
+              "Grip add-urile spre voi și omorâți-le.",
+              "Spread cu cercurile roșii și soak-uiți-le.",
+              "Feriți-vă de valuri (<b class=\"m\">Caustic Waves</b>) — va fi un loc gol în rând, treceți prin el.",
+              "Spread din nou după valuri, de data asta cu cercurile verzi.",
+              "O coadă fantomă distruge o platformă (<b class=\"m\">Circling Prey</b>) — mutați-vă pe alta."
             ]
           },
           {
             "title": "Info utile",
             "kind": "tips",
             "items": [
-              "Notițele detaliate de strategie (stil guild) nu au fost adăugate încă — trimite pozele și le completez.",
+              "Boss final — 3 faze de inimă în total (Phase 1, Phase 2, Phase 3); păstrați cooldown-uri majore pentru fiecare.",
               "Pe Mythic dă mount-ul <b>Primeval Skyfriend</b> (drop garantat în Season 2)."
             ]
           }
@@ -1479,7 +1507,7 @@
       ]
     },
     "ulatek": {
-      "overview": "Ula’tek închide raidul în trei stagii: valuri de venin și ouă în Fury of the Serpent Mother, o fază de add-uri cu Doomscale Warden, apoi finalul de ascensiune în care rupe platforma. Expune-i Venomous Heart în timpul Rage of the Shackled și dă-i burn imediat — alternativa e Fury Unleashed, un hit în două părți care începe cu peste 2,5 milioane damage.",
+      "overview": "Ula’tek închide raidul pe 3 faze + un Intermission: Phase 1 cu valuri de venin și ouă de ridicat, Phase 2 cu raidul împărțit în 2 pentru a doborî Doomscale Warden-ii, Intermission cu platforma ruptă în 4 bucăți, apoi Phase 3 cu add-uri pe toate platformele. La final de fiecare fază principală, inima ei (Venomous Heart) se expune — burn imediat, altfel urmează Fury Unleashed, un hit în două părți care începe cu peste 2,5 milioane damage.",
       "loot": "Loot: 302 ilvl Normal / 344 Mythic • Curio tier tokens • Mount: Primeval Skyfriend (Mythic)",
       "roles": {
         "tank": [
